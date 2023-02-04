@@ -154,7 +154,6 @@ Transform:
   - {fileID: 786848465}
   - {fileID: 761781702}
   - {fileID: 22454228}
-  - {fileID: 2130968378}
   - {fileID: 1429370250}
   - {fileID: 1925463840}
   m_Father: {fileID: 0}
@@ -223,6 +222,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: f7fae96cb4988104180a2e2d28cd4c46, type: 3}
+      propertyPath: m_Materials.Array.data[2]
+      value: 
+      objectReference: {fileID: 2100000, guid: 977a72f48b9781d49a980278856b1022, type: 2}
     - target: {fileID: 919132149155446097, guid: f7fae96cb4988104180a2e2d28cd4c46, type: 3}
       propertyPath: m_Name
       value: wall
@@ -285,6 +288,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7337984843794982428, guid: 97aac027dad796949bbc2e92d694d747, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: aeeb74d56e81e2c42b45cfc92597c066, type: 2}
     - target: {fileID: 919132149155446097, guid: 97aac027dad796949bbc2e92d694d747, type: 3}
       propertyPath: m_Name
       value: pottedPlant
@@ -351,6 +358,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0e40bbb3a57bafe4b8549ffec1f8b7da, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 977a72f48b9781d49a980278856b1022, type: 2}
     - target: {fileID: 919132149155446097, guid: 0e40bbb3a57bafe4b8549ffec1f8b7da, type: 3}
       propertyPath: m_Name
       value: wallCornerRond
@@ -521,6 +532,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 15582d8a945355e4fb795b837c5b04e6, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 977a72f48b9781d49a980278856b1022, type: 2}
     - target: {fileID: 919132149155446097, guid: 15582d8a945355e4fb795b837c5b04e6, type: 3}
       propertyPath: m_Name
       value: wallWindowSlide
@@ -595,6 +610,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 9281b8991291b5f4db3584fb5db0a59b, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: f059a2d0beaf79541852438efd007a3b, type: 2}
     - target: {fileID: 919132149155446097, guid: 9281b8991291b5f4db3584fb5db0a59b, type: 3}
       propertyPath: m_Name
       value: lampRoundFloor
@@ -938,6 +957,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: f7fae96cb4988104180a2e2d28cd4c46, type: 3}
+      propertyPath: m_Materials.Array.data[2]
+      value: 
+      objectReference: {fileID: 2100000, guid: 977a72f48b9781d49a980278856b1022, type: 2}
     - target: {fileID: 919132149155446097, guid: f7fae96cb4988104180a2e2d28cd4c46, type: 3}
       propertyPath: m_Name
       value: wall (2)
@@ -1161,6 +1184,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0e40bbb3a57bafe4b8549ffec1f8b7da, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 977a72f48b9781d49a980278856b1022, type: 2}
     - target: {fileID: 919132149155446097, guid: 0e40bbb3a57bafe4b8549ffec1f8b7da, type: 3}
       propertyPath: m_Name
       value: wallCornerRond (2)
@@ -1227,6 +1254,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0e40bbb3a57bafe4b8549ffec1f8b7da, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 977a72f48b9781d49a980278856b1022, type: 2}
     - target: {fileID: 919132149155446097, guid: 0e40bbb3a57bafe4b8549ffec1f8b7da, type: 3}
       propertyPath: m_Name
       value: wallCornerRond (3)
@@ -1247,7 +1278,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 5b2e8654fa8e57746a5fe308cb2618e4, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5b2e8654fa8e57746a5fe308cb2618e4, type: 3}
       propertyPath: m_LocalScale.x
@@ -1375,6 +1406,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: f7fae96cb4988104180a2e2d28cd4c46, type: 3}
+      propertyPath: m_Materials.Array.data[2]
+      value: 
+      objectReference: {fileID: 2100000, guid: 977a72f48b9781d49a980278856b1022, type: 2}
     - target: {fileID: 919132149155446097, guid: f7fae96cb4988104180a2e2d28cd4c46, type: 3}
       propertyPath: m_Name
       value: wall (1)
@@ -1449,6 +1484,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: f7fae96cb4988104180a2e2d28cd4c46, type: 3}
+      propertyPath: m_Materials.Array.data[2]
+      value: 
+      objectReference: {fileID: 2100000, guid: 977a72f48b9781d49a980278856b1022, type: 2}
     - target: {fileID: 919132149155446097, guid: f7fae96cb4988104180a2e2d28cd4c46, type: 3}
       propertyPath: m_Name
       value: wall (3)
@@ -1469,7 +1508,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: b4838f2e0cce013498ce59def0bc9d95, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b4838f2e0cce013498ce59def0bc9d95, type: 3}
       propertyPath: m_LocalScale.x
@@ -1589,6 +1628,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0e40bbb3a57bafe4b8549ffec1f8b7da, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 977a72f48b9781d49a980278856b1022, type: 2}
     - target: {fileID: 919132149155446097, guid: 0e40bbb3a57bafe4b8549ffec1f8b7da, type: 3}
       propertyPath: m_Name
       value: wallCornerRond (1)
@@ -1599,78 +1642,4 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 0e40bbb3a57bafe4b8549ffec1f8b7da, type: 3}
   m_PrefabInstance: {fileID: 2117566227}
-  m_PrefabAsset: {fileID: 0}
---- !u!1001 &2130968377
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 16728233}
-    m_Modifications:
-    - target: {fileID: -8679921383154817045, guid: fd250184dd70abc44a0dbbb787e6daf6, type: 3}
-      propertyPath: m_RootOrder
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: fd250184dd70abc44a0dbbb787e6daf6, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 3.5102515
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: fd250184dd70abc44a0dbbb787e6daf6, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 4.761353
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: fd250184dd70abc44a0dbbb787e6daf6, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 4.2611
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: fd250184dd70abc44a0dbbb787e6daf6, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -16.38
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: fd250184dd70abc44a0dbbb787e6daf6, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -2.587
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: fd250184dd70abc44a0dbbb787e6daf6, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -3
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: fd250184dd70abc44a0dbbb787e6daf6, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: fd250184dd70abc44a0dbbb787e6daf6, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: fd250184dd70abc44a0dbbb787e6daf6, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: fd250184dd70abc44a0dbbb787e6daf6, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: fd250184dd70abc44a0dbbb787e6daf6, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: fd250184dd70abc44a0dbbb787e6daf6, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: -90
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: fd250184dd70abc44a0dbbb787e6daf6, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: fd250184dd70abc44a0dbbb787e6daf6, type: 3}
-      propertyPath: m_Name
-      value: bathroomMirror
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: fd250184dd70abc44a0dbbb787e6daf6, type: 3}
---- !u!4 &2130968378 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: fd250184dd70abc44a0dbbb787e6daf6, type: 3}
-  m_PrefabInstance: {fileID: 2130968377}
   m_PrefabAsset: {fileID: 0}
