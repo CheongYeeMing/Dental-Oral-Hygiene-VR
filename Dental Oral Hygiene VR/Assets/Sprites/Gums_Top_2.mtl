@@ -1,0 +1,5 @@
+newmtl GumsMaterial
+map_Kd TeethColor.jpg
+Kd 1 1 1
+d 1
+
