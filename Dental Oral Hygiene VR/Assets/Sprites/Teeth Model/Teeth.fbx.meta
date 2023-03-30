@@ -3,7 +3,17 @@ guid: 4d3ef5251babf4a4395d780dff15e2d4
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GumsMaterial
+    second: {fileID: 2100000, guid: 8081dfaba2cec6c48b0273adae84d54e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TeethMaterial
+    second: {fileID: 2100000, guid: 94c0dbef7cc016f45804f53831b54419, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
