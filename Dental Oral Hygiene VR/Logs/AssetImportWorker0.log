@@ -145,3 +145,11 @@ Received Import Request.
 Start importing Assets/Materials/ToothbrushBody.mat using Guid(3f840d2602dc3fa42868640e3095a338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f09b3f3090694917ee4638c6fb4f8ad3') in 0.020315 seconds 
   Import took 0.026139 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 83.182654 seconds.
+  path: Assets/Materials/ToothbrushBody.mat
+  artifactKey: Guid(3f840d2602dc3fa42868640e3095a338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/ToothbrushBody.mat using Guid(3f840d2602dc3fa42868640e3095a338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e49b39b822ecc0892b0ed9bc6f9b5f5b') in 0.018478 seconds 
+  Import took 0.023939 seconds .
+
