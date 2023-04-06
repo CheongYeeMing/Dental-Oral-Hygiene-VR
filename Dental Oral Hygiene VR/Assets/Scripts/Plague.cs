@@ -9,8 +9,8 @@ public class Plague : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        material = object.GetComponent<MeshRenderer>();
-        debug.log(material);   
+        material = GetComponent<MeshRenderer>().material;
+        print(material);   
     }
 
     // Update is called once per frame
