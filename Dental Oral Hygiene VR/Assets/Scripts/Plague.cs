@@ -5,6 +5,11 @@ using UnityEngine;
 public class Plague : MonoBehaviour
 {
     private Material material;
+    private int health;
+
+    private Awake() {
+        health = 100;
+    }
 
     // Start is called before the first frame update
     void Start()
@@ -13,9 +18,14 @@ public class Plague : MonoBehaviour
         print(material);   
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+    public void ReduceHealth(int amount) {
+        health -= amount
+        if (health <= 0) {
+            RemovePlague()
+        }
+    }
+
+    private void RemovePlague() {
+        // Deactivate Box Collider and Sprite Renderer
     }
 }
