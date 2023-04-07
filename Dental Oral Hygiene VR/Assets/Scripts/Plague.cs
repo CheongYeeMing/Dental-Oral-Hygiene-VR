@@ -7,21 +7,21 @@ public class Plague : MonoBehaviour
     private Material material;
     private int health;
 
-    private Awake() {
+    private void Awake() {
         health = 100;
     }
 
     // Start is called before the first frame update
-    void Start()
+    public void Start()
     {
         material = GetComponent<MeshRenderer>().material;
         print(material);   
     }
 
     public void ReduceHealth(int amount) {
-        health -= amount
+        health -= amount;
         if (health <= 0) {
-            RemovePlague()
+            RemovePlague();
         }
     }
 
