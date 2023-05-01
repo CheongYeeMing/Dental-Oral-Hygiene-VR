@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Monologue : MonoBehaviour
 {
@@ -11,6 +12,7 @@ public class Monologue : MonoBehaviour
 
 
     private bool isTyping;
+    private string currentSentence;
 
     // Start is called before the first frame update
     void Start()
@@ -29,7 +31,7 @@ public class Monologue : MonoBehaviour
     {
         examineText.text = "";
         isTyping = true;
-        previousSentence = sentence;
+        currentSentence = sentence;
         foreach (char letter in sentence.ToCharArray())
         {
             examineText.text += letter;
