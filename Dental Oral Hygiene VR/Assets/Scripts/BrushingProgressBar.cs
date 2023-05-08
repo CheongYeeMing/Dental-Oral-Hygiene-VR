@@ -4,13 +4,16 @@ using UnityEngine;
 
 public class BrushingProgressBar : MonoBehaviour
 {
-    private float value;
     [SerializeField] private int stages;
+
+    private float value;
+    private float progress;
     
     // Start is called before the first frame update
     void Start()
     {
         value = 100/stages;
+        progress = 0;
     }
 
     // Update is called once per frame
@@ -19,8 +22,16 @@ public class BrushingProgressBar : MonoBehaviour
         
     }
 
+    private void StartBrushing() {
+        // Set up Scene 3a Progress Bar 
+        progress = 0;
+        UpdateProgressBar();
+    }
+
     private void IncrementProgress() {
         // Increase by some set amount
+        progress += value;
+        UpdateProgressBar();
     }
 
     private void UpdateProgressBar() {
