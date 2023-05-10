@@ -121,7 +121,7 @@ MonoBehaviour:
   m_MinSize: {x: 618, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 1
-  controlID: 147
+  controlID: 231
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -146,7 +146,7 @@ MonoBehaviour:
   m_MinSize: {x: 618, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 148
+  controlID: 232
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -171,7 +171,7 @@ MonoBehaviour:
   m_MinSize: {x: 342, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 71
+  controlID: 155
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -196,7 +196,7 @@ MonoBehaviour:
   m_MinSize: {x: 342, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 72
+  controlID: 156
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -429,9 +429,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 6af6ffff
-      m_LastClickedID: -2454
-      m_ExpandedIDs: 28f8ffff68f8ffff6cfbffff064f0000
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 28f8ffff68f8ffff6cfbffff084f0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: Inner Teeth Bottom Stain (NEW)
@@ -442,7 +442,7 @@ MonoBehaviour:
           y: 0
           width: 0
           height: 0
-        m_UserData: -2454
+        m_UserData: 20410
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
         m_OriginalEventType: 0
@@ -516,9 +516,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 2.228639, y: -0.025088893, z: 0.18741816}
+    m_Target: {x: 4.5183663, y: 0.1432104, z: 0.048756838}
     speed: 2
-    m_Value: {x: 2.228639, y: -0.025088893, z: 0.18741816}
+    m_Value: {x: 4.5203986, y: 0.13865247, z: 0.045323472}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -565,13 +565,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.56047827, y: 0.11967697, z: -0.07987002, w: -0.81613153}
+    m_Target: {x: 0.38147926, y: 0.029543616, z: -0.014886556, w: 0.9243147}
     speed: 2
-    m_Value: {x: -0.5604608, y: 0.117174834, z: -0.07815274, w: -0.81611633}
+    m_Value: {x: 0.38131467, y: 0.028143346, z: -0.014307323, w: 0.923906}
   m_Size:
-    m_Target: 0.30505553
+    m_Target: 0.32506624
     speed: 2
-    m_Value: 0.29191917
+    m_Value: 0.31106818
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1671,9 +1671,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 2c540000
-    m_LastClickedID: 21548
-    m_ExpandedIDs: 00000000225400002454000026540000285400002a5400002c5400002e540000305400003254000034540000
+    m_SelectedIDs: 3a540000
+    m_LastClickedID: 21562
+    m_ExpandedIDs: 0000000030540000325400003454000036540000385400003a5400003c5400003e5400004054000042540000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1701,7 +1701,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000225400002454000026540000285400002a5400002c5400002e540000305400003254000034540000
+    m_ExpandedIDs: 0000000030540000325400003454000036540000385400003a5400003c5400003e5400004054000042540000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1728,7 +1728,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c62300002aac00003eac00000ebe0000a09700007a99000010080100d2b6000084b5000090c80000f2a40000b2db0000c88401003cc80100849a0300acbe030058c70300425d0500e0c800009cc90000487d00003e5d0500c65c0500168b0a00aa8a0a00068b0a001e5f00002c6e00001cd7000046a3000082d10300342c0500368d0000d2f3000002ac000040710000defc1100c611130064ce0000cc7815002e9415003c941500c46900005ae8000064a800002cab000012020100cc9f0000fcbe00007aa2120066a2120072a2120046d0000000980000d4970000d8b400009ee400002a1a010052970000648700005e870000082f65002c2f6500628700004e970000f69700008a97000056b300005eb30000ceff0a008ac60800703501005eab00006ab40000d6cc00002af80000085801000e5801002aad0100fa890100000000001a420000c4500000c6530000d04e000010570000fe500000ea4e0000345c00000c5a0000305700008a620000a455000052550000b07e000070550000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
