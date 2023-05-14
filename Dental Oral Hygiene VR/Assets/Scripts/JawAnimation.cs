@@ -8,13 +8,22 @@ public class JawAnimation : MonoBehaviour
 
     protected string currentState;
 
-    protected const string JAW_OPEN = "Open";
-    protected const string JAW_CLOSE = "Close";
+    protected const string JAW_OPEN = "JawOpen";
+    protected const string JAW_CLOSE = "JawClose";
 
     // Start is called before the first frame update
     public virtual void Start()
     {
         ChangeAnimationState(JAW_CLOSE);
+    }
+
+    public void Toggle() 
+    {
+        if (currentState == JAW_OPEN) {
+            ChangeAnimationState(JAW_CLOSE);
+        } else if (currentState == JAW_CLOSE) {
+            ChangeAnimationState(JAW_OPEN);
+        }
     }
 
     public void ChangeAnimationState(string newState)
