@@ -1,9 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class BrushingProgressBar : MonoBehaviour
 {
+    [SerializeField] Slider slider;
     [SerializeField] private int stages;
 
     private float value;
@@ -14,6 +16,8 @@ public class BrushingProgressBar : MonoBehaviour
     {
         value = 100/stages;
         progress = 0;
+        slider.minValue = 0;
+        slider.maxValue = 100;
     }
 
     // Update is called once per frame
@@ -28,7 +32,7 @@ public class BrushingProgressBar : MonoBehaviour
         UpdateProgressBar();
     }
 
-    private void IncrementProgress() {
+    public void IncrementProgress() {
         // Increase by some set amount
         progress += value;
         UpdateProgressBar();
@@ -36,6 +40,7 @@ public class BrushingProgressBar : MonoBehaviour
 
     private void UpdateProgressBar() {
         // Update Progress Bar UI
+        slider.value = progress;
     }
 
     private void CompleteBrushing() {
