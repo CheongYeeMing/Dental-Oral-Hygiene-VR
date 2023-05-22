@@ -5,7 +5,12 @@ using UnityEngine.UI;
 
 public class Monologue : MonoBehaviour
 {
-    private const float TYPING_DELAY = 0.008f;
+    private const float TEXT_TYPING_SPEED = 0.008f;
+    private const string ANIMATOR_IS_OPEN = "IsOpen";
+    private const string AUDIO_CLICK = "Click";
+    private const string AUDIO_DIALOGUE_MONOLOGUE = "DialogueMonologue";
+    private const string AUDIO_OPEN = "Open";
+    private const string AUDIO_RETRO_CLICK = "RetroClick";
 
     [SerializeField] Sprite clara;
     [SerializeField] Text examineText;
@@ -35,7 +40,7 @@ public class Monologue : MonoBehaviour
         foreach (char letter in sentence.ToCharArray())
         {
             examineText.text += letter;
-            yield return new WaitForSeconds(TYPING_DELAY);
+            yield return new WaitForSeconds(TEXT_TYPING_SPEED);
         }
         isTyping = false;
     }
