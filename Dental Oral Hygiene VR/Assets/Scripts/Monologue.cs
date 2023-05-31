@@ -15,7 +15,6 @@ public class Monologue : MonoBehaviour
     [SerializeField] Sprite clara;
     [SerializeField] Text examineText;
 
-
     private bool isTyping;
     private string currentSentence;
 

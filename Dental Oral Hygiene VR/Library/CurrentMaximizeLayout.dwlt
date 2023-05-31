@@ -20,10 +20,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 939
-  m_MinSize: {x: 678, y: 321}
-  m_MaxSize: {x: 12003, y: 8021}
+  m_MinSize: {x: 679, y: 342}
+  m_MaxSize: {x: 12004, y: 8042}
   vertical: 1
-  controlID: 1165
+  controlID: 1726
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -134,10 +134,10 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 939
-  m_MinSize: {x: 678, y: 321}
-  m_MaxSize: {x: 12003, y: 8021}
+  m_MinSize: {x: 679, y: 342}
+  m_MaxSize: {x: 12004, y: 8042}
   vertical: 0
-  controlID: 1166
+  controlID: 1727
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -159,10 +159,10 @@ MonoBehaviour:
     y: 0
     width: 1475
     height: 939
-  m_MinSize: {x: 403, y: 321}
-  m_MaxSize: {x: 8003, y: 8021}
+  m_MinSize: {x: 403, y: 342}
+  m_MaxSize: {x: 8003, y: 8042}
   vertical: 1
-  controlID: 1167
+  controlID: 1695
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -187,7 +187,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 1168
+  controlID: 2474
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -489,14 +489,14 @@ MonoBehaviour:
       e31: 0
       e32: 0
       e33: 1
-    - e00: 1.402829
+    - e00: 0.7147368
       e01: 0
       e02: 0
-      e03: -238.5839
+      e03: -20.736816
       e10: 0
-      e11: 1.402829
+      e11: 0.7147368
       e12: 0
-      e13: 6.776703
+      e13: 159.43684
       e20: 0
       e21: 0
       e22: 1
@@ -505,14 +505,14 @@ MonoBehaviour:
       e31: 0
       e32: 0
       e33: 1
-    - e00: 0.71580917
+    - e00: 0.7147368
       e01: 0
       e02: 0
-      e03: -23.602768
+      e03: -20.736816
       e10: 0
-      e11: 0.71580917
+      e11: 0.7147368
       e12: 0
-      e13: 151.1821
+      e13: 170.1579
       e20: 0
       e21: 0
       e22: 1
@@ -521,14 +521,14 @@ MonoBehaviour:
       e31: 0
       e32: 0
       e33: 1
-    - e00: 1
+    - e00: 0.7147368
       e01: 0
       e02: 0
-      e03: 0
+      e03: -20.736816
       e10: 0
-      e11: 1
+      e11: 0.7147368
       e12: 0
-      e13: 0
+      e13: 198.74738
       e20: 0
       e21: 0
       e22: 1
@@ -1479,7 +1479,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: AnimationWindow
+  m_Name: ConsoleWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -1488,16 +1488,16 @@ MonoBehaviour:
     y: 579
     width: 1475
     height: 360
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 18}
+  m_MinSize: {x: 101, y: 121}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 16}
   - {fileID: 17}
   - {fileID: 18}
   - {fileID: 19}
-  m_Selected: 2
-  m_LastSelected: 0
+  m_Selected: 1
+  m_LastSelected: 2
 --- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -1536,22 +1536,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Animations
+    - Assets/Scripts
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Animations
+  - Assets/Scripts
   m_LastFoldersGridSize: 16
   m_LastProjectPath: C:\Projects\NUS Dental Oral Hygiene VR\Dental-Oral-Hygiene-VR\Dental
     Oral Hygiene VR
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 47}
-    m_SelectedIDs: 56520000
-    m_LastClickedID: 21078
+    scrollPos: {x: 0, y: 227}
+    m_SelectedIDs: 64520000
+    m_LastClickedID: 21092
     m_ExpandedIDs: 000000001a5200001c5200001e52000020520000225200002452000026520000285200002a5200002c5200002e52000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -1605,8 +1605,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 56510000
-    m_LastClickedInstanceID: 20822
+    m_SelectedInstanceIDs: 6c4c0000
+    m_LastClickedInstanceID: 19564
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c62300002aac00003eac00000ebe0000a09700007a99000010080100d2b6000084b5000090c80000f2a40000b2db0000c88401003cc80100849a0300acbe030058c70300425d0500e0c800009cc90000487d00003e5d0500c65c0500168b0a00aa8a0a00068b0a001e5f00002c6e00001cd7000046a3000082d10300342c0500368d0000d2f3000002ac000040710000defc1100c611130064ce0000cc7815002e9415003c941500c46900005ae8000064a800002cab000012020100cc9f0000fcbe00007aa2120066a2120072a2120046d0000000980000d4970000d8b400009ee400002a1a010052970000648700005e870000082f65002c2f6500628700004e970000f69700008a97000056b300005eb30000ceff0a008ac60800703501005eab00006ab40000d6cc00002af80000085801000e5801002aad0100fa8901001a420000c4500000c6530000d04e000010570000fe500000ea4e0000345c00000c5a0000305700008a620000a455000052550000b07e0000705500009e76000000000000
     m_RenameOverlay:
@@ -1744,8 +1744,8 @@ MonoBehaviour:
     y: 0
     width: 445
     height: 939
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 21}
   m_Panes:
   - {fileID: 21}
@@ -1783,7 +1783,7 @@ MonoBehaviour:
     m_CachedPref: -151
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
-  m_LastInspectedObjectInstanceID: 20812
+  m_LastInspectedObjectInstanceID: 19564
   m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_LockTracker:

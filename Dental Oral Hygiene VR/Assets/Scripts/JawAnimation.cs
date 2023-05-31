@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class JawAnimation : MonoBehaviour
+public class JawAnimation : MonoBehaviour, Animation
 {
     [SerializeField] public Animator animator;
 
