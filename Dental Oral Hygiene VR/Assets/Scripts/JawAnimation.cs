@@ -10,6 +10,12 @@ public class JawAnimation : MonoBehaviour, Animation
 
     protected const string JAW_OPEN = "JawOpen";
     protected const string JAW_CLOSE = "JawClose";
+    protected const string UPPER_TEETH_A = "upper_teeth_a";
+    protected const string UPPER_TEETH_B = "upper_teeth_b";
+    protected const string UPPER_TEETH_C = "upper_teeth_c";
+    protected const string UPPER_TEETH_D = "upper_teeth_d";
+    protected const string UPPER_TEETH_E = "upper_teeth_e";
+    protected const string UPPER_TEETH_F = "upper_teeth_f";
 
     // Start is called before the first frame update
     public virtual void Start()
