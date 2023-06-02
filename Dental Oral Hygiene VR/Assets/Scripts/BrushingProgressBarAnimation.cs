@@ -14,7 +14,7 @@ public class BrushingProgressBarAnimation : MonoBehaviour, Animation
     // Start is called before the first frame update
     public virtual void Start()
     {
-        ChangeAnimationState(PROGRESS_BAR_OPEN);
+        ChangeAnimationState(PROGRESS_BAR_CLOSE);
     }
 
     public void Toggle() 
