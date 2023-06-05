@@ -2,3 +2,155 @@
 C:\Program Files\Unity 2020.3.28f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-c6a4ce1908965804480b70a5673849f6
 # Starting compiling UnityEngine.UI.dll
 C:\Program Files\Unity 2020.3.28f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-2de83911b6b81a649988a68f3c7c8a24
+# Starting compiling UnityEditor.TestRunner.dll
+C:\Program Files\Unity 2020.3.28f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-b6bd5ad3136e54f44be845c21646efe2
+# Starting compiling UnityEditor.UI.dll
+C:\Program Files\Unity 2020.3.28f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-c447f76b7a2e10849bd256d35765cb7b
+# Starting compiling Unity.VSCode.Editor.dll
+C:\Program Files\Unity 2020.3.28f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-d9e1f57ca0b207e4eba17b5813b34fe2
+# Starting compiling Unity.VisualStudio.Editor.dll
+C:\Program Files\Unity 2020.3.28f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-707c5efac327d1849ac19984740d818b
+# Starting compiling Unity.Timeline.dll
+C:\Program Files\Unity 2020.3.28f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-4834ae3fb9f580f4cbe8cbbfb2954c79
+# Starting compiling Unity.TextMeshPro.dll
+C:\Program Files\Unity 2020.3.28f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-cf1290b77a36fcc44874c243ea7b9dcb
+# Starting compiling Unity.ProBuilder.Csg.dll
+C:\Program Files\Unity 2020.3.28f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-6652d04a435c0ef43ac1260072363803
+# Starting compiling Unity.InputSystem.dll
+C:\Program Files\Unity 2020.3.28f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-c004172cc353470428dac64f2e7e5a54
+# Starting compiling Unity.Rider.Editor.dll
+C:\Program Files\Unity 2020.3.28f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-6b4c1b2c11e83f84587bd8d8859b3342
+# Starting compiling Unity.PlasticSCM.Editor.dll
+C:\Program Files\Unity 2020.3.28f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-30f9b6ccb3f88044aa3a41fd940137a6
+# Starting compiling UnityEngine.SpatialTracking.dll
+C:\Program Files\Unity 2020.3.28f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-4c17b8fda85c72c4f818e4cae2c0df93
+# Starting compiling Unity.ProBuilder.Poly2Tri.dll
+C:\Program Files\Unity 2020.3.28f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-00f7e830362f5db47b878ec5d22e9b5f
+# Starting compiling Unity.ProBuilder.KdTree.dll
+C:\Program Files\Unity 2020.3.28f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-9c0244ddc50112242bd797058fff3a98
+# Starting compiling Unity.Services.Core.Editor.dll
+C:\Program Files\Unity 2020.3.28f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-f16f2854b3c43d9409ff2e58edc18bfb
+# Starting compiling Unity.ProBuilder.AssetIdRemapUtility.dll
+C:\Program Files\Unity 2020.3.28f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-cd95cc1f8f809a148ab62554b86f28f4
+# Starting compiling Unity.ProBuilder.Stl.dll
+C:\Program Files\Unity 2020.3.28f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-fedfd0a8fa86a34499392198619bc4e2
+# Starting compiling Unity.Settings.Editor.dll
+C:\Program Files\Unity 2020.3.28f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-b56bf5653d7c99541a8cb8c09f3c5f20
+# Starting compiling Unity.XR.Management.dll
+C:\Program Files\Unity 2020.3.28f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-db85e69c55322ac478f452caab86877a
+# Starting compiling Oculus.Platform.dll
+C:\Program Files\Unity 2020.3.28f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-ac2ad49cc03790842bea11a129cc901c
+# Starting compiling Meta.WitAi.Lib.dll
+C:\Program Files\Unity 2020.3.28f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-adc87a7687e4b244b8a27e8b1b1eadf0
+# Starting compiling Oculus.Spatializer.dll
+C:\Program Files\Unity 2020.3.28f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-72c78cbe6941f4e4d8a3a9c3764971bf
+# Starting compiling AssistantCoreSDKRuntime.dll
+C:\Program Files\Unity 2020.3.28f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-2ea963050bcfa54498a82e04584479cb
+# Starting compiling Oculus.VR.dll
+C:\Program Files\Unity 2020.3.28f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-7359a68266a12c54a9d7e008c0c21ad8
+# Starting compiling Oculus.LipSync.dll
+C:\Program Files\Unity 2020.3.28f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-d2b0816ffa739eb439bc06ea6c766474
+# Starting compiling Unity.XR.Management.Editor.dll
+C:\Program Files\Unity 2020.3.28f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-e1f15f94657674b40937a66480f8ccea
+# Starting compiling UnityEngine.XR.LegacyInputHelpers.dll
+C:\Program Files\Unity 2020.3.28f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-c8e6fe806af52ca45a1860d1f56cece9
+# Starting compiling UnityEditor.SpatialTracking.dll
+C:\Program Files\Unity 2020.3.28f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-a8072a0392dbc744fbdbfd02665c0398
+# Starting compiling Oculus.Spatializer.Editor.dll
+C:\Program Files\Unity 2020.3.28f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-ad9b3e7739605264484006d1323e1a36
+# Starting compiling Oculus.LipSync.Editor.dll
+C:\Program Files\Unity 2020.3.28f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-30e30c6f98677ce45b0abc787777d1e5
+# Starting compiling Oculus.AudioManager.dll
+C:\Program Files\Unity 2020.3.28f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-12f91fe4a218e7043a88e173a55bf001
+# Starting compiling Unity.ProBuilder.dll
+C:\Program Files\Unity 2020.3.28f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-78077518a496de149b26c72d2af5b129
+# Starting compiling Meta.VoiceSDK.Mic.Common.dll
+C:\Program Files\Unity 2020.3.28f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-0771720e0786e8740adca3591128da2c
+# Starting compiling Meta.WitAi.Conduit.dll
+C:\Program Files\Unity 2020.3.28f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-2539c43b98b88254aa04503ca514c7c8
+# Starting compiling Oculus.Platform.Editor.dll
+C:\Program Files\Unity 2020.3.28f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-176d77ca8c7fd3e499a11ad6bd9e5d5e
+# Starting compiling Meta.WitAI.Lib.Editor.dll
+C:\Program Files\Unity 2020.3.28f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-579b3c63e7cec99458fa967f7f82ab96
+# Starting compiling AssistantCoreSDKEditor.dll
+C:\Program Files\Unity 2020.3.28f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-4b1cf7bdd0b339344951a4c35fa95c22
+# Starting compiling Meta.VoiceSDK.Mic.Other.dll
+C:\Program Files\Unity 2020.3.28f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-fd2d46b4fae5d754f87f14acac208e08
+# Starting compiling Meta.VoiceSDK.Mic.WebGL.dll
+C:\Program Files\Unity 2020.3.28f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-83288d2d5254827468bef8ba038f858f
+# Starting compiling Unity.TextMeshPro.Editor.dll
+C:\Program Files\Unity 2020.3.28f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-8b5e0a31881228c4787c63465644ccef
+# Starting compiling Unity.Timeline.Editor.dll
+C:\Program Files\Unity 2020.3.28f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-346234a026bf3814aa11683db964b362
+# Starting compiling Oculus.AudioManager.Audio.Editor.dll
+C:\Program Files\Unity 2020.3.28f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-7eb2cdb175f24654d9bc899a6813df48
+# Starting compiling Oculus.Interaction.dll
+C:\Program Files\Unity 2020.3.28f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-a196518998d388e48953df9ae097a038
+# Starting compiling Meta.WitAi.Conduit.Editor.dll
+C:\Program Files\Unity 2020.3.28f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-d28d6f47a614cde47aad915ab859569f
+# Starting compiling Oculus.AudioManager.Utils.Editor.dll
+C:\Program Files\Unity 2020.3.28f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-3d93db44bdd1b9d48a2ae856047aad2d
+# Starting compiling Unity.ProBuilder.Editor.dll
+C:\Program Files\Unity 2020.3.28f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-72467941e146c35438cdb9100f8c07d9
+# Starting compiling Meta.WitAi.dll
+C:\Program Files\Unity 2020.3.28f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-d095f146c43c7574388c48df81518cb9
+# Starting compiling Unity.XR.CoreUtils.dll
+C:\Program Files\Unity 2020.3.28f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-713295fc995cc364fa571467e43383c9
+# Starting compiling UnityEditor.XR.LegacyInputHelpers.dll
+C:\Program Files\Unity 2020.3.28f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-8a2fa92e79ffa924db32035e954768bf
+# Starting compiling Unity.CollabProxy.Editor.dll
+C:\Program Files\Unity 2020.3.28f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-4e555fdaf978cd747ad6138601d81d78
+# Starting compiling Unity.XR.Oculus.dll
+C:\Program Files\Unity 2020.3.28f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-cec99bcfc33df7843bd70018e0889752
+# Starting compiling Oculus.Interaction.OVR.dll
+C:\Program Files\Unity 2020.3.28f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-3e2e2543974649540aa30a646c7b018d
+# Starting compiling Oculus.Interaction.OVR.Samples.dll
+C:\Program Files\Unity 2020.3.28f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-6b307f6a35d58ee4bb2e8abd3ca457d6
+# Starting compiling Oculus.Interaction.Editor.dll
+C:\Program Files\Unity 2020.3.28f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-0eaef4a3c6684b146975b024476c90bb
+# Starting compiling Oculus.Interaction.InterfaceSupport.dll
+C:\Program Files\Unity 2020.3.28f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-db4f792f816231443b0d6ae1155f68bb
+# Starting compiling Unity.XR.Interaction.Toolkit.dll
+C:\Program Files\Unity 2020.3.28f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-3d1aed3cba8aede42b62506057c4651f
+# Starting compiling Unity.XR.CoreUtils.Editor.dll
+C:\Program Files\Unity 2020.3.28f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-7fd72cad2c3c0614198383f4096038a7
+# Starting compiling Unity.XR.Oculus.Editor.dll
+C:\Program Files\Unity 2020.3.28f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-002f23d5e14bd324095e929bf30869f4
+# Starting compiling Meta.WitAi.Editor.dll
+C:\Program Files\Unity 2020.3.28f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-09c1f929887bcc84ca12e08c3b3fdd9c
+# Starting compiling Meta.WitAi.TTS.dll
+C:\Program Files\Unity 2020.3.28f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-026529231f9cc9a4db38e92a1eec6f10
+# Starting compiling VoiceSDK.Runtime.dll
+C:\Program Files\Unity 2020.3.28f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-f22f479a97b53dd4394eeb05b427140a
+# Starting compiling Facebook.Wit.Dictation.dll
+C:\Program Files\Unity 2020.3.28f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-15018095410def24c97f3b7b7e46be5c
+# Starting compiling Oculus.VR.Editor.dll
+C:\Program Files\Unity 2020.3.28f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-dbbe62669595df34399891e790ecfd79
+# Starting compiling Unity.ProBuilder.AddOns.Editor.dll
+C:\Program Files\Unity 2020.3.28f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-1cf6548b5becfa44589c523e4b717f45
+# Starting compiling Oculus.Interaction.Samples.Editor.dll
+C:\Program Files\Unity 2020.3.28f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-ca9de6c6866e59c40a1a1220bad4d3f6
+# Starting compiling Oculus.Interaction.OVR.Editor.dll
+C:\Program Files\Unity 2020.3.28f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-c0aa87c7d39b1ca4fb2ad4df13942323
+# Starting compiling Oculus.Voice.Demo.dll
+C:\Program Files\Unity 2020.3.28f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-b850ba469869faf42a20b068b74392ec
+# Starting compiling VoiceSDK.Dictation.Runtime.dll
+C:\Program Files\Unity 2020.3.28f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-80aec7bd27b96f74a963189bb81aead8
+# Starting compiling Meta.WitAi.TTS.Editor.dll
+C:\Program Files\Unity 2020.3.28f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-94f36eda5d622fb41b0d083164134882
+# Starting compiling Meta.WitAi.TTS.Samples.dll
+C:\Program Files\Unity 2020.3.28f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-b791cac214ccc7243a2727bf6445a651
+# Starting compiling Facebook.Wit.Dictation.Editor.dll
+C:\Program Files\Unity 2020.3.28f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-ba54e4061d4ddd94d937a178e0161277
+# Starting compiling Unity.XR.Interaction.Toolkit.Samples.StarterAssets.dll
+C:\Program Files\Unity 2020.3.28f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-5c4a7b93b9a943b49bdf1bcd4f76e2cc
+# Starting compiling Unity.XR.Interaction.Toolkit.Editor.dll
+C:\Program Files\Unity 2020.3.28f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-870587a9331a2864d86fe16ee2d9db46
+# Starting compiling Oculus.VR.Scripts.Editor.dll
+C:\Program Files\Unity 2020.3.28f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-a06e62b65b5e9ce4aaf48e582eb4ef41
+# Starting compiling VoiceSDK.Dictation.Editor.dll
+C:\Program Files\Unity 2020.3.28f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-423cae15bd1f02745bff7873b95c8849
+# Starting compiling VoiceSDK.Editor.dll
+C:\Program Files\Unity 2020.3.28f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-415195408bf3d3040a33f1267edc32dd
+# Starting compiling Assembly-CSharp.dll
+C:\Program Files\Unity 2020.3.28f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-641d95dccfbd44f469cec4c873834ce7
