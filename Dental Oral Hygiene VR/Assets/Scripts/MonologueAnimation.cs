@@ -14,7 +14,7 @@ public class MonologueAnimation : MonoBehaviour, Animation
     // Start is called before the first frame update
     public virtual void Start()
     {
-        ChangeAnimationState(DIALOGUE_BOX_OPEN);
+        ChangeAnimationState(DIALOGUE_BOX_CLOSE);
     }
 
     public void Toggle() 

@@ -4,15 +4,16 @@ using UnityEngine;
 
 public class MonologueManager : MonoBehaviour
 {
+    public Monologue monologue;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        monologue = GetComponent<Monologue>();
+        Invoke("InitializeMonologue", 10);    
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+    void InitializeMonologue() {
+        monologue.StartMonologue();
     }
 }
