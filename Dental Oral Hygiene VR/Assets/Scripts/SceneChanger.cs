@@ -5,9 +5,37 @@ using UnityEngine.SceneManagement;
 
 public class SceneChanger : MonoBehaviour
 {
-    public void ChangeScene(string sceneName)
+    public static SceneChanger Instance;
+
+    private void Awake() 
     {
-        SceneManager.LoadScene(name);
+        Instance = this;
+    }
+
+    public enum Scene 
+    {
+        Bathroom,
+        JawModel
+    }
+
+    public void LoadScene(Scene scene)
+    {
+        SceneManager.LoadScene(scene.ToString());
+    }
+
+    public void LoadBathroom() 
+    {
+        SceneManager.LoadScene(Scene.Bathroom.ToString());
+    }
+
+    public void LoadJawModel() 
+    {
+        SceneManager.LoadScene(Scene.JawModel.ToString());
+    }
+
+    public void LoadNextScene()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
     public void Exit()
