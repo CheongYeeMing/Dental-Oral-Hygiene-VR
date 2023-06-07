@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Plague : MonoBehaviour
 {
+    [SerializeField] BrushingProgressBar brushingProgressBar;
     private Material material;
     private int health;
 
@@ -16,6 +17,7 @@ public class Plague : MonoBehaviour
     {
         material = GetComponent<MeshRenderer>().material;
         print(material);   
+        
     }
 
     public void ReduceHealth(int amount) {
@@ -25,7 +27,8 @@ public class Plague : MonoBehaviour
         }
     }
 
-    private void RemovePlague() {
+    public void RemovePlague() {
         // Deactivate Box Collider and Sprite Renderer
+        gameObject.SetActive(false);
     }
 }

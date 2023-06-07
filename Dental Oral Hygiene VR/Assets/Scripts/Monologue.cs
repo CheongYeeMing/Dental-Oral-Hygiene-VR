@@ -88,9 +88,14 @@ public class Monologue : MonoBehaviour
             StartCoroutine(TypeSentence(Sequences[sequenceNumber].monologue[currElement + 1]));
             currElement++;
         } 
-        else 
+        else if (Sequences[sequenceNumber].isEnd)
         {
             EndMonologue();
+        } 
+        else
+        {
+            EndMonologue();
+            Invoke("StartMonologue", 2);
         }
     }
 
