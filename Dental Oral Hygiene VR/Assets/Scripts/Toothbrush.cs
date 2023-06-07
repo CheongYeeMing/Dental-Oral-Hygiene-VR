@@ -18,7 +18,7 @@ public class Toothbrush : MonoBehaviour
 
     private void OnTriggerEnter(Collider other) {
         if (other.gameObject.tag == "Plague") {
-            other.gameObject.GetComponent<Plague>().RemovePlague();
+            other.gameObject.GetComponent<Plague>().ReduceHealth();
         }  
     }
 }

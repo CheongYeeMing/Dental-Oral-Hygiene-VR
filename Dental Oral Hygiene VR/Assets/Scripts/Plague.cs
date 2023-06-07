@@ -4,12 +4,16 @@ using UnityEngine;
 
 public class Plague : MonoBehaviour
 {
+    private const float BRUSH_DELAY = 3;
+
     [SerializeField] BrushingProgressBar brushingProgressBar;
+    
     private Material material;
     private int health;
+    private float brushTimer;
 
     private void Awake() {
-        health = 100;
+        health = 3;
     }
 
     // Start is called before the first frame update
@@ -20,8 +24,18 @@ public class Plague : MonoBehaviour
         
     }
 
-    public void ReduceHealth(int amount) {
-        health -= amount;
+    public void Update() 
+    {
+        brushTimer += Time.deltaTime;
+    }
+
+    public void ReduceHealth() {
+        if (brushTimer < BRUSH_DELAY) 
+        {
+            return;
+        }
+        brushTimer = 0;
+        health -= 1;
         if (health <= 0) {
             RemovePlague();
         }
