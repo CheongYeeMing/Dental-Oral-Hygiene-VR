@@ -71,6 +71,7 @@ public class Monologue : MonoBehaviour
         if (isTyping) 
         {
             CompleteSentence();
+            return;
         }
         if (currElement < Sequences[sequenceNumber].monologue.Length -1)
         {
