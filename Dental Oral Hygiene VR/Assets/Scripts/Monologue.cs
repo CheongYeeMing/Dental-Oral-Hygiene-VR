@@ -27,9 +27,9 @@ public class Monologue : MonoBehaviour
     private const string AUDIO_OPEN = "Open";
     private const string AUDIO_RETRO_CLICK = "RetroClick";
 
-    [SerializeField] private Sprite clara;
     [SerializeField] private Text monologueBox;
     [SerializeField] private JawSceneAnimation jawSceneAnimation;
+    [SerializeField] private MonologueFocus monologueFocus;
 
     public bool isTalking = false;
     private bool isTyping;
@@ -52,6 +52,7 @@ public class Monologue : MonoBehaviour
 
     public void StartMonologue()
     {
+        monologueFocus.Toggle();
         monologueAnimation.Toggle();
         Debug.Log("Monologue Triggered");
         isTalking = true;
@@ -61,6 +62,7 @@ public class Monologue : MonoBehaviour
 
     public void EndMonologue()
     {
+        monologueFocus.Toggle();
         monologueAnimation.Toggle();
         Debug.Log("Monologue Closed");
         isTalking = false;
