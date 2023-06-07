@@ -10,7 +10,7 @@ public class MonologueManager : MonoBehaviour
     void Start()
     {
         monologue = GetComponent<Monologue>();
-        Invoke("InitializeMonologue", 10);    
+        Invoke("InitializeMonologue", 5);    
     }
 
     void InitializeMonologue() {
