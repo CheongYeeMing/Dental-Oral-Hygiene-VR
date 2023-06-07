@@ -13,10 +13,6 @@ public class Monologue : MonoBehaviour
     {
         public bool nextStage;
         public bool isEnd;
-        public bool backToNormal;
-        public int sequenceNum;
-
-        public bool teleport;
 
         [TextArea(3, 15)]
         public string[] monologue;
@@ -55,10 +51,12 @@ public class Monologue : MonoBehaviour
     {
         monologueAnimation.Toggle();
         Debug.Log("Monologue Triggered");
+        isTalking = true;
+        StartCoroutine(TypeSentence(Sequences[sequenceNumber].monologue[0]))
     }
 
     // Method to be triggered by VR Grabbable UI
-    public void VRHandClick()
+    public void VRDialogueBoxHandClick()
     {
         if (isTyping) 
         {
