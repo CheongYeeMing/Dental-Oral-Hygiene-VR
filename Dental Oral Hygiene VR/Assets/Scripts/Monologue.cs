@@ -26,11 +26,12 @@ public class Monologue : MonoBehaviour
     private const string AUDIO_OPEN = "Open";
     private const string AUDIO_RETRO_CLICK = "RetroClick";
 
-    [SerializeField] Sprite clara;
-    [SerializeField] Text examineText;
+    [SerializeField] private Sprite clara;
+    [SerializeField] private Text monologueBox;
 
     public bool isTalking = false;
     private bool isTyping;
+    public int currElement;
     private string currentSentence;
 
     // Start is called before the first frame update
@@ -52,27 +53,46 @@ public class Monologue : MonoBehaviour
         monologueAnimation.Toggle();
         Debug.Log("Monologue Triggered");
         isTalking = true;
-        StartCoroutine(TypeSentence(Sequences[sequenceNumber].monologue[0]))
+        currElement = 0;
+        StartCoroutine(TypeSentence(Sequences[sequenceNumber].monologue[currElement]));
+    }
+
+    public void EndMonologue()
+    {
+        monologueAnimation.Toggle();
+        Debug.Log("Monologue Closed");
+        isTalking = false;
     }
 
     // Method to be triggered by VR Grabbable UI
     public void VRDialogueBoxHandClick()
     {
+        Debug.Log("Clicked!!!");
         if (isTyping) 
         {
             CompleteSentence();
+        }
+        if (currElement < Sequences[sequenceNumber].monologue.Length -1)
+        {
+            StopAllCoroutines();
+            StartCoroutine(TypeSentence(Sequences[sequenceNumber].monologue[currElement + 1]));
+            currElement++;
+        } 
+        else 
+        {
+            EndMonologue();
         }
     }
 
     // Text Typing Animation
     public IEnumerator TypeSentence(string sentence) 
     {
-        examineText.text = "";
+        monologueBox.text = "";
         isTyping = true;
         currentSentence = sentence;
         foreach (char letter in sentence.ToCharArray())
         {
-            examineText.text += letter;
+            monologueBox.text += letter;
             yield return new WaitForSeconds(TEXT_TYPING_SPEED);
         }
         isTyping = false;
@@ -82,6 +102,7 @@ public class Monologue : MonoBehaviour
     private void CompleteSentence() 
     {
         StopAllCoroutines();
+        monologueBox.text = currentSentence;
         isTyping = false;
     }
 }
