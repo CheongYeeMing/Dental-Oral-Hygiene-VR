@@ -11,7 +11,8 @@ public class Monologue : MonoBehaviour
     [System.Serializable]
     public class Sequence
     {
-        public bool nextStage;
+        public bool nextAngle;
+        public string jawAngle;
         public bool isEnd;
 
         [TextArea(3, 15)]
@@ -28,6 +29,7 @@ public class Monologue : MonoBehaviour
 
     [SerializeField] private Sprite clara;
     [SerializeField] private Text monologueBox;
+    [SerializeField] private JawSceneAnimation jawSceneAnimation;
 
     public bool isTalking = false;
     private bool isTyping;
@@ -62,6 +64,11 @@ public class Monologue : MonoBehaviour
         monologueAnimation.Toggle();
         Debug.Log("Monologue Closed");
         isTalking = false;
+        if (Sequences[sequenceNumber].nextAngle) 
+        {
+            jawSceneAnimation.ChangeAnimationState(Sequences[sequenceNumber].jawAngle);
+        }
+        sequenceNumber++;
     }
 
     // Method to be triggered by VR Grabbable UI
