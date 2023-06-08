@@ -31,6 +31,8 @@ public class Monologue : MonoBehaviour
         public string jawAngle;
         public bool plagueBrush;
         public bool isEnd;
+        public bool hasNewToothbrushTransform;
+        public Transform newToothbrushTransform;
 
         [TextArea(3, 15)]
         public string[] monologue;
