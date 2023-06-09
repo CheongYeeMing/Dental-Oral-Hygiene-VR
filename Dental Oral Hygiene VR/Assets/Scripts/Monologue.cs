@@ -23,6 +23,10 @@ public class Monologue : MonoBehaviour
 
     
     public List<GameObject> currentList;
+    [SerializeField] Toothbrush toothbrush;
+    [SerializeField] JawAnimation jawAnimation;
+    [SerializeField] GameObject upperJaw;
+    [SerializeField] GameObject lowerJaw;
 
     [System.Serializable]
     public class Sequence
@@ -95,6 +99,10 @@ public class Monologue : MonoBehaviour
             {
                 ActivatePlague(Sequences[sequenceNumber].jawAngle);
             }
+            if (Sequences[sequenceNumber].hasNewToothbrushTransform) 
+            {
+                toothbrush.ChangeTransform(Sequences[sequenceNumber].newToothbrushTransform);
+            }
         }
         sequenceNumber++;
     }
@@ -163,7 +171,9 @@ public class Monologue : MonoBehaviour
         } 
         else if (angle == "upper_teeth_d")
         {
+            Debug.Log("D Activated");
             ActivateBoxCollider(UPPER_TEETH_D);
+            jawAnimation.JawOpen();
         } 
         else if (angle == "upper_teeth_e")
         {
@@ -176,6 +186,7 @@ public class Monologue : MonoBehaviour
         else if (angle == "lower_teeth_a")
         {
             ActivateBoxCollider(LOWER_TEETH_A);
+            jawAnimation.JawClose();
         }
         else if (angle == "lower_teeth_b")
         {
@@ -188,6 +199,7 @@ public class Monologue : MonoBehaviour
         else if (angle == "lower_teeth_d")
         {
             ActivateBoxCollider(LOWER_TEETH_D);
+            jawAnimation.JawOpen();
         }
         else if (angle == "lower_teeth_e")
         {
@@ -225,6 +237,7 @@ public class Monologue : MonoBehaviour
             return;
         }
         isBrushing = false;
+        toothbrush.ResetPosition();
         Invoke("StartMonologue", 2);
     }
 }

@@ -50,4 +50,12 @@ public class JawAnimation : MonoBehaviour, Animation
         // Reassign current state with new state
         currentState = newState;
     }
+
+    public void JawOpen() {
+        ChangeAnimationState(JAW_OPEN);
+    }
+
+    public void JawClose() {
+        ChangeAnimationState(JAW_CLOSE);
+    }
 }
