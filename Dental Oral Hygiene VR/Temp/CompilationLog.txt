@@ -1,0 +1,4 @@
+# Starting compiling Unity.XR.Interaction.Toolkit.dll
+C:\Program Files\Unity 2020.3.28f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-28d666c83fe27a543ae020bd25500024
+# Starting compiling Assembly-CSharp.dll
+C:\Program Files\Unity 2020.3.28f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-221b67b4d9e553640977bdbb3f068bff

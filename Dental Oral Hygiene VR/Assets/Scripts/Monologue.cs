@@ -20,6 +20,10 @@ public class Monologue : MonoBehaviour
     public List<GameObject> LOWER_TEETH_D;
     public List<GameObject> LOWER_TEETH_E;
     public List<GameObject> LOWER_TEETH_F;
+    public List<GameObject> UPPER_BITING_A;
+    public List<GameObject> UPPER_BITING_B;
+    public List<GameObject> LOWER_BITING_A;
+    public List<GameObject> LOWER_BITING_B;
 
     
     public List<GameObject> currentList;
@@ -208,6 +212,22 @@ public class Monologue : MonoBehaviour
         else if (angle == "lower_teeth_f")
         {
             ActivateBoxCollider(LOWER_TEETH_F);
+        }
+        else if (angle == "upper_biting_a")
+        {
+            ActivateBoxCollider(UPPER_BITING_A);
+        }
+        else if (angle == "upper_biting_b")
+        {
+            ActivateBoxCollider(UPPER_BITING_B);
+        }
+        else if (angle == "lower_biting_a")
+        {
+            ActivateBoxCollider(LOWER_BITING_A);
+        }
+        else if (angle == "lower_biting_b")
+        {
+            ActivateBoxCollider(LOWER_BITING_B);
         }
     }
 
