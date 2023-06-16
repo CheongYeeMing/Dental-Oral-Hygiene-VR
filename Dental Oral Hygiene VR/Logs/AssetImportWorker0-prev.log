@@ -156,3 +156,4 @@ Received Import Request.
 Start importing Assets/Sprites/Set.prefab using Guid(70b84f8c4d48e9445b0799fb26d25c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7484c7ad154e9d1b7f4d3ba95fa54c2') in 0.075058 seconds 
   Import took 0.078219 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
