@@ -43,6 +43,7 @@ public class Monologue : MonoBehaviour
         public bool isEnd;
         public bool hasNewToothbrushTransform;
         public Transform newToothbrushTransform;
+        public bool enableInterdentaldisableToothbrush;
 
         [TextArea(3, 15)]
         public string[] monologue;
@@ -109,6 +110,11 @@ public class Monologue : MonoBehaviour
             {
                 toothbrush.ChangeTransform(Sequences[sequenceNumber].newToothbrushTransform);
             }
+        }
+        if (Sequences[sequenceNumber].enableInterdentaldisableToothbrush) 
+        {
+            toothbrush.GetComponent<BoxCollider>().enabled = false;
+            interDentalToothbrush.GetComponent<BoxCollider>().enabled = true;
         }
         sequenceNumber++;
     }

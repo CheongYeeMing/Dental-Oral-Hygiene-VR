@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Plague : MonoBehaviour
 {
-    private const float BRUSH_DELAY = 3;
+    private const float BRUSH_DELAY = 1;
 
     [SerializeField] BrushingProgressBar brushingProgressBar;
     
@@ -13,7 +13,7 @@ public class Plague : MonoBehaviour
     private float brushTimer;
 
     private void Awake() {
-        health = 3;
+        health = 1;
     }
 
     // Start is called before the first frame update
