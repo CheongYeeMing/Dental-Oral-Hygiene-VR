@@ -240,6 +240,7 @@ public class Monologue : MonoBehaviour
         else if (angle == "interdental_a")
         {
             ActivateBoxCollider(INTERDENTAL_A);
+            jawAnimation.JawClose();
         }
         else if (angle == "interdental_b")
         {
