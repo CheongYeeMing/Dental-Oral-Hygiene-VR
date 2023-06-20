@@ -24,7 +24,8 @@ public class Monologue : MonoBehaviour
     public List<GameObject> UPPER_BITING_B;
     public List<GameObject> LOWER_BITING_A;
     public List<GameObject> LOWER_BITING_B;
-
+    public List<GameObject> INTERDENTAL_A;
+    public List<GameObject> INTERDENTAL_B;
     
     public List<GameObject> currentList;
     [SerializeField] Toothbrush toothbrush;
@@ -228,6 +229,14 @@ public class Monologue : MonoBehaviour
         else if (angle == "lower_biting_b")
         {
             ActivateBoxCollider(LOWER_BITING_B);
+        }
+        else if (angle == "interdental_a")
+        {
+            ActivateBoxCollider(INTERDENTAL_A);
+        }
+        else if (angle == "interdental_b")
+        {
+            ActivateBoxCollider(INTERDENTAL_B);
         }
     }
 
