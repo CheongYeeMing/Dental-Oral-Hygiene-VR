@@ -29,6 +29,7 @@ public class Monologue : MonoBehaviour
     
     public List<GameObject> currentList;
     [SerializeField] Toothbrush toothbrush;
+    [SerializeField] Toothbrush interDentalToothbrush;
     [SerializeField] JawAnimation jawAnimation;
     [SerializeField] GameObject upperJaw;
     [SerializeField] GameObject lowerJaw;
