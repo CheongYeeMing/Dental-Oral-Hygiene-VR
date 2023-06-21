@@ -5,6 +5,8 @@ using UnityEngine.XR.Interaction.Toolkit;
 
 public class Toothbrush : MonoBehaviour
 {
+    [SerializeField] private ParticleSystem foam;
+    [SerializeField] private GameObject toothbrushHead;
     public XRGrabInteractable XRGrabInteractable;
     public Vector3 originalPosition;
     public Quaternion originalRotation;
@@ -27,6 +29,7 @@ public class Toothbrush : MonoBehaviour
     {
         if (other.gameObject.tag == "Plague") {
             other.gameObject.GetComponent<Plague>().ReduceHealth();
+            Instantiate(foam, toothbrushHead.transform.position, transform.rotation);
         }  
     }
 
