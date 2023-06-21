@@ -60,6 +60,8 @@ public class Monologue : MonoBehaviour
     [SerializeField] private Text monologueBox;
     [SerializeField] private JawSceneAnimation jawSceneAnimation;
     [SerializeField] private MonologueFocus monologueFocus;
+    [SerializeField] private Material plagueInactive;
+    [SerializeField] private Material plagueActive;
 
     public bool isTalking = false;
     public bool isBrushing = false;
@@ -255,6 +257,7 @@ public class Monologue : MonoBehaviour
         foreach(GameObject plague in plagueList)
         {
             plague.GetComponent<BoxCollider>().enabled = true;
+            plague.GetComponent<MeshRenderer>().sharedMaterial = plagueInactive;
         }
     }
 
