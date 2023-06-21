@@ -242,12 +242,12 @@ public class Monologue : MonoBehaviour
         }
         else if (angle == "interdental_a")
         {
-            ActivateBoxCollider(INTERDENTAL_A);
+            RandomlyActivatePlague(INTERDENTAL_A);
             jawAnimation.JawClose();
         }
         else if (angle == "interdental_b")
         {
-            ActivateBoxCollider(INTERDENTAL_B);
+            RandomlyActivatePlague(INTERDENTAL_B);
         }
     }
 
@@ -260,6 +260,27 @@ public class Monologue : MonoBehaviour
             plague.GetComponent<BoxCollider>().enabled = true;
             plague.GetComponent<MeshRenderer>().sharedMaterial = plagueActive;
         }
+    }
+
+    public void RandomlyActivatePlague(List<GameObject> plagueList)
+    {
+        isBrushing = true;
+        currentList = plagueList;
+        // Random random = new Random();
+        int top_1 = Random.Range(0, 4);
+        int top_2 = top_1;
+        while (top_2 == top_1) {
+            top_2 = Random.Range(0, 4);
+        }
+        int bot_1 = Random.Range(4,8);
+        int bot_2 = bot_1;
+        while (bot_2 == bot_1) {
+            bot_2 = Random.Range(4,8);
+        }
+        plagueList[top_1].SetActive(true);
+        plagueList[top_2].SetActive(true);
+        plagueList[bot_1].SetActive(true);
+        plagueList[bot_2].SetActive(true);
     }
 
     public void CheckBrushingCompletion()
