@@ -257,7 +257,7 @@ public class Monologue : MonoBehaviour
         foreach(GameObject plague in plagueList)
         {
             plague.GetComponent<BoxCollider>().enabled = true;
-            plague.GetComponent<MeshRenderer>().sharedMaterial = plagueInactive;
+            plague.GetComponent<MeshRenderer>().sharedMaterial = plagueActive;
         }
     }
 
