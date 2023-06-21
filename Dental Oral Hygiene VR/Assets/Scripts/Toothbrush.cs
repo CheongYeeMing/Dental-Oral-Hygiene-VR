@@ -31,6 +31,9 @@ public class Toothbrush : MonoBehaviour
     }
 
     public void ResetPosition() {
+        gameObject.SetActive(false);
+        gameObject.SetActive(true);
+
         gameObject.transform.position = originalPosition;
         gameObject.transform.rotation = originalRotation;
     }
