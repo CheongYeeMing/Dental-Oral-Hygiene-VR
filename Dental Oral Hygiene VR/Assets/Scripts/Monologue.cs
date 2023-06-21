@@ -62,6 +62,7 @@ public class Monologue : MonoBehaviour
     [SerializeField] private MonologueFocus monologueFocus;
     [SerializeField] private Material plagueInactive;
     [SerializeField] private Material plagueActive;
+    [SerializeField] private BrushingProgressBar brushingProgressBar;
 
     public bool isTalking = false;
     public bool isBrushing = false;
@@ -278,6 +279,7 @@ public class Monologue : MonoBehaviour
         }
         isBrushing = false;
         toothbrush.ResetPosition();
+        brushingProgressBar.IncrementProgress();
         Invoke("StartMonologue", 2);
     }
 }

@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class BrushingProgressBar : MonoBehaviour
 {
+    [SerializeField] private BrushingProgressBarAnimation brushingProgressBarAnimation;
     [SerializeField] public Slider slider;
     [SerializeField] private int stages;
 
@@ -34,8 +35,10 @@ public class BrushingProgressBar : MonoBehaviour
 
     public void IncrementProgress() {
         // Increase by some set amount
+        brushingProgressBarAnimation.Toggle();
         progress += value;
         UpdateProgressBar();
+        brushingProgressBarAnimation.DelayToggle();
     }
 
     private void UpdateProgressBar() {

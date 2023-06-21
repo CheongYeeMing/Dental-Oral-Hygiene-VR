@@ -20,8 +20,8 @@ public class BrushingProgressBarAnimation : MonoBehaviour, Animation
     public void Toggle() 
     {
         if (currentState == PROGRESS_BAR_OPEN) {
-            ChangeAnimationState(PROGRESS_BAR_OPEN);
-        } else if (currentState == PROGRESS_BAR_OPEN) {
+            ChangeAnimationState(PROGRESS_BAR_CLOSE);
+        } else if (currentState == PROGRESS_BAR_CLOSE) {
             ChangeAnimationState(PROGRESS_BAR_OPEN);
         }
     }
@@ -36,5 +36,9 @@ public class BrushingProgressBarAnimation : MonoBehaviour, Animation
 
         // Reassign current state with new state
         currentState = newState;
+    }
+
+    public void DelayToggle() {
+        Invoke("Toggle", 2);
     }
 }
