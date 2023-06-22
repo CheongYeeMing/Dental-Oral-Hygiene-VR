@@ -5,8 +5,6 @@ using UnityEngine;
 public class Plague : MonoBehaviour
 {
     private const float BRUSH_DELAY = 1;
-
-    [SerializeField] BrushingProgressBar brushingProgressBar;
     
     private Material material;
     private int health;
