@@ -26,4 +26,13 @@ public class SettingsMenu : MonoBehaviour
         // Reference to scene changer instance to MM
         SceneChanger.Instance.LoadBathroom();
     }
+
+    public void Back() {
+        // Revert back to Main Menu View
+        settingsMenuAnimation.Toggle();
+    }
+
+    public void Quit() {
+        Application.Quit();
+    }
 }
