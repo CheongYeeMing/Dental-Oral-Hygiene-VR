@@ -387,11 +387,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9195838262144505073, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 0.631
       objectReference: {fileID: 0}
     - target: {fileID: 9195838262144505073, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9195838262158245202, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
       propertyPath: m_Layer
@@ -405,6 +405,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 9195838262264511243, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9195838262663375210, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
       propertyPath: m_Layer
       value: 6
@@ -413,9 +417,621 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[2].isEnd
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[3].isEnd
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[4].isEnd
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[5].isEnd
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[6].isEnd
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[7].isEnd
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[8].isEnd
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[9].isEnd
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[10].isEnd
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[11].isEnd
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[12].isEnd
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[13].isEnd
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[14].isEnd
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[15].isEnd
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[16].isEnd
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[2].jawAngle
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[3].jawAngle
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[4].jawAngle
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[5].jawAngle
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[6].jawAngle
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[7].jawAngle
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[8].jawAngle
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[9].jawAngle
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[10].jawAngle
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[11].jawAngle
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[12].jawAngle
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[13].jawAngle
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[14].jawAngle
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[15].jawAngle
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[16].jawAngle
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[2].nextAngle
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[3].nextAngle
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[4].nextAngle
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[5].nextAngle
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[6].nextAngle
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[7].nextAngle
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[8].nextAngle
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[9].nextAngle
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[10].nextAngle
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[11].nextAngle
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[12].nextAngle
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[13].nextAngle
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[14].nextAngle
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[15].nextAngle
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[16].nextAngle
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[2].plagueBrush
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[3].plagueBrush
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[4].plagueBrush
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[5].plagueBrush
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[6].plagueBrush
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[7].plagueBrush
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[8].plagueBrush
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[9].plagueBrush
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[10].plagueBrush
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[11].plagueBrush
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[12].plagueBrush
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[13].plagueBrush
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[14].plagueBrush
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[15].plagueBrush
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[16].plagueBrush
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[2].monologue.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[3].monologue.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[4].monologue.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[5].monologue.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[6].monologue.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[7].monologue.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[8].monologue.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[9].monologue.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[10].monologue.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[11].monologue.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[12].monologue.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[13].monologue.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[14].monologue.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[15].monologue.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[16].monologue.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[17].monologue.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[2].monologue.Array.data[0]
+      value: Finally, scrub the biting surfaces of the teeth using short back and
+        forth movements.
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[2].monologue.Array.data[1]
+      value: Congratulations on completing the task! Remember brushing 2-3 minutes
+        twice a day is all your gum and teeth ask!
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[2].monologue.Array.data[2]
+      value: However, it is not the end...
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[2].monologue.Array.data[3]
+      value: The toothbruh bristles cannot properly reach the areas in between teeth.
+        Interdental aids such as an interdental brush or dental floss are two commonly
+        ways to clean these areas.
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[3].monologue.Array.data[0]
+      value: Finally, scrub the biting surfaces of the teeth using short back and
+        forth movements.
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[3].monologue.Array.data[1]
+      value: Congratulations on completing the task! Remember brushing 2-3 minutes
+        twice a day is all your gum and teeth ask!
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[3].monologue.Array.data[2]
+      value: However, it is not the end...
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[3].monologue.Array.data[3]
+      value: The toothbruh bristles cannot properly reach the areas in between teeth.
+        Interdental aids such as an interdental brush or dental floss are two commonly
+        ways to clean these areas.
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[4].monologue.Array.data[0]
+      value: Finally, scrub the biting surfaces of the teeth using short back and
+        forth movements.
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[4].monologue.Array.data[1]
+      value: Congratulations on completing the task! Remember brushing 2-3 minutes
+        twice a day is all your gum and teeth ask!
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[4].monologue.Array.data[2]
+      value: However, it is not the end...
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[4].monologue.Array.data[3]
+      value: The toothbruh bristles cannot properly reach the areas in between teeth.
+        Interdental aids such as an interdental brush or dental floss are two commonly
+        ways to clean these areas.
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[5].monologue.Array.data[0]
+      value: Finally, scrub the biting surfaces of the teeth using short back and
+        forth movements.
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[5].monologue.Array.data[1]
+      value: Congratulations on completing the task! Remember brushing 2-3 minutes
+        twice a day is all your gum and teeth ask!
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[5].monologue.Array.data[2]
+      value: However, it is not the end...
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[5].monologue.Array.data[3]
+      value: The toothbruh bristles cannot properly reach the areas in between teeth.
+        Interdental aids such as an interdental brush or dental floss are two commonly
+        ways to clean these areas.
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[6].monologue.Array.data[0]
+      value: Finally, scrub the biting surfaces of the teeth using short back and
+        forth movements.
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[6].monologue.Array.data[1]
+      value: Congratulations on completing the task! Remember brushing 2-3 minutes
+        twice a day is all your gum and teeth ask!
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[6].monologue.Array.data[2]
+      value: However, it is not the end...
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[6].monologue.Array.data[3]
+      value: The toothbruh bristles cannot properly reach the areas in between teeth.
+        Interdental aids such as an interdental brush or dental floss are two commonly
+        ways to clean these areas.
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[7].monologue.Array.data[0]
+      value: Finally, scrub the biting surfaces of the teeth using short back and
+        forth movements.
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[7].monologue.Array.data[1]
+      value: Congratulations on completing the task! Remember brushing 2-3 minutes
+        twice a day is all your gum and teeth ask!
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[7].monologue.Array.data[2]
+      value: However, it is not the end...
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[7].monologue.Array.data[3]
+      value: The toothbruh bristles cannot properly reach the areas in between teeth.
+        Interdental aids such as an interdental brush or dental floss are two commonly
+        ways to clean these areas.
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[8].monologue.Array.data[0]
+      value: Finally, scrub the biting surfaces of the teeth using short back and
+        forth movements.
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[8].monologue.Array.data[1]
+      value: Congratulations on completing the task! Remember brushing 2-3 minutes
+        twice a day is all your gum and teeth ask!
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[8].monologue.Array.data[2]
+      value: However, it is not the end...
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[8].monologue.Array.data[3]
+      value: The toothbruh bristles cannot properly reach the areas in between teeth.
+        Interdental aids such as an interdental brush or dental floss are two commonly
+        ways to clean these areas.
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[9].monologue.Array.data[0]
+      value: Finally, scrub the biting surfaces of the teeth using short back and
+        forth movements.
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[9].monologue.Array.data[1]
+      value: Congratulations on completing the task! Remember brushing 2-3 minutes
+        twice a day is all your gum and teeth ask!
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[9].monologue.Array.data[2]
+      value: However, it is not the end...
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[9].monologue.Array.data[3]
+      value: The toothbruh bristles cannot properly reach the areas in between teeth.
+        Interdental aids such as an interdental brush or dental floss are two commonly
+        ways to clean these areas.
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[10].monologue.Array.data[0]
+      value: Finally, scrub the biting surfaces of the teeth using short back and
+        forth movements.
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[10].monologue.Array.data[1]
+      value: Congratulations on completing the task! Remember brushing 2-3 minutes
+        twice a day is all your gum and teeth ask!
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[10].monologue.Array.data[2]
+      value: However, it is not the end...
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[10].monologue.Array.data[3]
+      value: The toothbruh bristles cannot properly reach the areas in between teeth.
+        Interdental aids such as an interdental brush or dental floss are two commonly
+        ways to clean these areas.
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[11].monologue.Array.data[0]
+      value: Finally, scrub the biting surfaces of the teeth using short back and
+        forth movements.
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[11].monologue.Array.data[1]
+      value: Congratulations on completing the task! Remember brushing 2-3 minutes
+        twice a day is all your gum and teeth ask!
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[11].monologue.Array.data[2]
+      value: However, it is not the end...
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[11].monologue.Array.data[3]
+      value: The toothbruh bristles cannot properly reach the areas in between teeth.
+        Interdental aids such as an interdental brush or dental floss are two commonly
+        ways to clean these areas.
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[12].monologue.Array.data[0]
+      value: Finally, scrub the biting surfaces of the teeth using short back and
+        forth movements.
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[12].monologue.Array.data[1]
+      value: Congratulations on completing the task! Remember brushing 2-3 minutes
+        twice a day is all your gum and teeth ask!
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[12].monologue.Array.data[2]
+      value: However, it is not the end...
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[12].monologue.Array.data[3]
+      value: The toothbruh bristles cannot properly reach the areas in between teeth.
+        Interdental aids such as an interdental brush or dental floss are two commonly
+        ways to clean these areas.
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[13].monologue.Array.data[0]
+      value: Finally, scrub the biting surfaces of the teeth using short back and
+        forth movements.
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[13].monologue.Array.data[1]
+      value: Congratulations on completing the task! Remember brushing 2-3 minutes
+        twice a day is all your gum and teeth ask!
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[13].monologue.Array.data[2]
+      value: However, it is not the end...
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[13].monologue.Array.data[3]
+      value: The toothbruh bristles cannot properly reach the areas in between teeth.
+        Interdental aids such as an interdental brush or dental floss are two commonly
+        ways to clean these areas.
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[14].monologue.Array.data[0]
+      value: Finally, scrub the biting surfaces of the teeth using short back and
+        forth movements.
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[14].monologue.Array.data[1]
+      value: Congratulations on completing the task! Remember brushing 2-3 minutes
+        twice a day is all your gum and teeth ask!
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[14].monologue.Array.data[2]
+      value: However, it is not the end...
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[14].monologue.Array.data[3]
+      value: The toothbruh bristles cannot properly reach the areas in between teeth.
+        Interdental aids such as an interdental brush or dental floss are two commonly
+        ways to clean these areas.
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[15].monologue.Array.data[0]
+      value: Finally, scrub the biting surfaces of the teeth using short back and
+        forth movements.
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[15].monologue.Array.data[1]
+      value: Congratulations on completing the task! Remember brushing 2-3 minutes
+        twice a day is all your gum and teeth ask!
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[15].monologue.Array.data[2]
+      value: However, it is not the end...
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[15].monologue.Array.data[3]
+      value: The toothbruh bristles cannot properly reach the areas in between teeth.
+        Interdental aids such as an interdental brush or dental floss are two commonly
+        ways to clean these areas.
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[16].monologue.Array.data[0]
+      value: Finally, scrub the biting surfaces of the teeth using short back and
+        forth movements.
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[16].monologue.Array.data[1]
+      value: Congratulations on completing the task! Remember brushing 2-3 minutes
+        twice a day is all your gum and teeth ask!
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[16].monologue.Array.data[2]
+      value: However, it is not the end...
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[16].monologue.Array.data[3]
+      value: The toothbruh bristles cannot properly reach the areas in between teeth.
+        Interdental aids such as an interdental brush or dental floss are two commonly
+        ways to clean these areas.
+      objectReference: {fileID: 0}
     - target: {fileID: 9195838262733595702, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
       propertyPath: m_Layer
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262733595702, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9195838263154011177, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
       propertyPath: m_Layer
@@ -433,9 +1049,17 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 9195838263475668726, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9195838263625129858, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
       propertyPath: m_Layer
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838263625129858, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9195838263680073167, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
       propertyPath: m_Layer
@@ -519,11 +1143,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9195838263926370054, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0.038
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9195838263926370054, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0.178
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9195838263926370054, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -2177,8 +2801,36 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2100000, guid: be21b6f84a5320842a9e65692e7ab4aa, type: 2}
     - target: {fileID: -121180411026154055, guid: 31f33935b12150e46bc37af5f8345fc1, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -121180411026154055, guid: 31f33935b12150e46bc37af5f8345fc1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.00756
+      value: -0.02609
+      objectReference: {fileID: 0}
+    - target: {fileID: -121180411026154055, guid: 31f33935b12150e46bc37af5f8345fc1, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.07963
+      objectReference: {fileID: 0}
+    - target: {fileID: -121180411026154055, guid: 31f33935b12150e46bc37af5f8345fc1, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7014591
+      objectReference: {fileID: 0}
+    - target: {fileID: -121180411026154055, guid: 31f33935b12150e46bc37af5f8345fc1, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.7127098
+      objectReference: {fileID: 0}
+    - target: {fileID: -121180411026154055, guid: 31f33935b12150e46bc37af5f8345fc1, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.000000014901163
+      objectReference: {fileID: 0}
+    - target: {fileID: -121180411026154055, guid: 31f33935b12150e46bc37af5f8345fc1, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.000000029802326
+      objectReference: {fileID: 0}
+    - target: {fileID: -121180411026154055, guid: 31f33935b12150e46bc37af5f8345fc1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 90.91101
       objectReference: {fileID: 0}
     - target: {fileID: -45249582451399751, guid: 31f33935b12150e46bc37af5f8345fc1, type: 3}
       propertyPath: m_IsActive
@@ -2666,6 +3318,120 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 90, y: -90, z: -90}
+--- !u!1 &727753548
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 727753549}
+  m_Layer: 0
+  m_Name: Main Menu Labels
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &727753549
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 727753548}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 25.748888, y: 11.459013, z: -25.936565}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 940287388}
+  - {fileID: 732039983}
+  m_Father: {fileID: 0}
+  m_RootOrder: 17
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &732039982
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 732039983}
+  - component: {fileID: 732039984}
+  m_Layer: 0
+  m_Name: Settings Label
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &732039983
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 732039982}
+  m_LocalRotation: {x: -0, y: -0.6029413, z: -0, w: 0.7977856}
+  m_LocalPosition: {x: 0.31, y: -0.055812836, z: 0.524}
+  m_LocalScale: {x: 0.035, y: 0.1, z: 0.050000004}
+  m_Children: []
+  m_Father: {fileID: 727753549}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: -74.162, z: 0}
+--- !u!212 &732039984
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 732039982}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 2c517e50c9b926d4e867b202eeb48a04, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 3.73, y: 0.45}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1001 &761781701
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3218,6 +3984,102 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
+--- !u!1 &940287387
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 940287388}
+  - component: {fileID: 940287390}
+  - component: {fileID: 940287389}
+  m_Layer: 0
+  m_Name: Play Label
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &940287388
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 940287387}
+  m_LocalRotation: {x: -0, y: -0.36429977, z: -0, w: 0.9312818}
+  m_LocalPosition: {x: 0, y: 0, z: -0.029}
+  m_LocalScale: {x: 0.023000002, y: 0.1, z: 0.050000004}
+  m_Children: []
+  m_Father: {fileID: 727753549}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -42.729, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -0.067, y: -0.055812836}
+  m_SizeDelta: {x: 3.73, y: 0.45}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &940287389
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 940287387}
+  m_CullTransparentMesh: 1
+--- !u!212 &940287390
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 940287387}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 2c517e50c9b926d4e867b202eeb48a04, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 3.73, y: 0.45}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &987089497
 GameObject:
   m_ObjectHideFlags: 0
@@ -13311,7 +14173,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 346507073602236642, guid: 5eccbf4be2c00e94689ee8062e4e7276, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 865075385244835223, guid: 5eccbf4be2c00e94689ee8062e4e7276, type: 3}
       propertyPath: m_Name
@@ -13331,11 +14193,11 @@ PrefabInstance:
       objectReference: {fileID: 1894436487}
     - target: {fileID: 3113582725626138475, guid: 5eccbf4be2c00e94689ee8062e4e7276, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3113582726685623846, guid: 5eccbf4be2c00e94689ee8062e4e7276, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3113582726751902589, guid: 5eccbf4be2c00e94689ee8062e4e7276, type: 3}
       propertyPath: m_IsActive
@@ -13395,7 +14257,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8013813974128427463, guid: 5eccbf4be2c00e94689ee8062e4e7276, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5eccbf4be2c00e94689ee8062e4e7276, type: 3}
