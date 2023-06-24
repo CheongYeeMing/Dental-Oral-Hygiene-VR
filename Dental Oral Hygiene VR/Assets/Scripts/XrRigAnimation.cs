@@ -6,13 +6,13 @@ public class XrRigAnimation : MonoBehaviour, Animation
 {
     [SerializeField] public Animator animator;
 
-    protected string currentState;
+    protected string currentState = "XRSettingsBack";
 
     protected const string XR_SETTINGS = "XRSettings";
     protected const string XR_SETTINGS_BACK = "XRSettingsBack";
 
     public void Start() {}
-    
+
     public void ToggleSettings() 
     {
         if (currentState == XR_SETTINGS) {

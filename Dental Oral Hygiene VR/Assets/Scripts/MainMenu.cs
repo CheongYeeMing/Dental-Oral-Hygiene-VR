@@ -5,6 +5,7 @@ using UnityEngine;
 public class MainMenu : MonoBehaviour
 {
     [SerializeField] public XrRigAnimation xrRigAnimation;
+    [SerializeField] public GameObject dialogueBox;
 
     // Start is called before the first frame update
     void Start()
@@ -23,6 +24,6 @@ public class MainMenu : MonoBehaviour
     }
 
     public void Play() {
-        
+        dialogueBox.SetActive(true);
     }
 }
