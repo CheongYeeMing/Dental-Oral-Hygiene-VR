@@ -7,13 +7,13 @@ public class MainMenu : MonoBehaviour
     [SerializeField] public XrRigAnimation xrRigAnimation;
     [SerializeField] public GameObject dialogueBox;
     [SerializeField] public Animator labelAnimator;
-    [SerializeField] public Animator transition;
+    [SerializeField] public Transition transition;
 
     // Start is called before the first frame update
     void Start()
     {
         // Invoke("Play", 5);
-        transition.Play("FadeOut");
+        // transition.Play("FadeOut");
     }
 
     // Update is called once per frame
@@ -32,7 +32,7 @@ public class MainMenu : MonoBehaviour
     }
 
     public void Brushing() {
-        transition.Play("FadeIn");
+        transition.FadeOut();
         Invoke("ChangeScene", 1);
     }
 
