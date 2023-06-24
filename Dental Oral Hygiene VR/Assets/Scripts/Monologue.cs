@@ -26,6 +26,7 @@ public class Monologue : MonoBehaviour
     public List<GameObject> LOWER_BITING_B;
     public List<GameObject> INTERDENTAL_A;
     public List<GameObject> INTERDENTAL_B;
+    public List<GameObject> PS;
     
     public List<GameObject> currentList;
     [SerializeField] Toothbrush toothbrush;
@@ -44,6 +45,8 @@ public class Monologue : MonoBehaviour
         public bool hasNewToothbrushTransform;
         public Transform newToothbrushTransform;
         public bool enableInterdentaldisableToothbrush;
+        public bool isMainMenu;
+        public bool activatePS;
 
         [TextArea(3, 15)]
         public string[] monologue;
@@ -88,7 +91,10 @@ public class Monologue : MonoBehaviour
 
     public void StartMonologue()
     {
-        monologueFocus.Toggle();
+        if (!Sequences[sequenceNumber].isMainMenu) 
+        {
+            monologueFocus.Toggle();
+        }
         monologueAnimation.Toggle();
         Debug.Log("Monologue Triggered");
         isTalking = true;
@@ -98,7 +104,10 @@ public class Monologue : MonoBehaviour
 
     public void EndMonologue()
     {
-        monologueFocus.Toggle();
+        if (!Sequences[sequenceNumber].isMainMenu) 
+        {
+            monologueFocus.Toggle();
+        }
         monologueAnimation.Toggle();
         Debug.Log("Monologue Closed");
         isTalking = false;
@@ -118,6 +127,12 @@ public class Monologue : MonoBehaviour
         {
             toothbrush.GetComponent<BoxCollider>().enabled = false;
             interDentalToothbrush.GetComponent<BoxCollider>().enabled = true;
+        }
+        if (Sequences[sequenceNumber].activatePS) 
+        {
+            foreach(GameObject ps in PS) {
+                ps.SetActive(true);
+            }
         }
         sequenceNumber++;
     }

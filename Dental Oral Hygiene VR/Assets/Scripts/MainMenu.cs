@@ -6,11 +6,12 @@ public class MainMenu : MonoBehaviour
 {
     [SerializeField] public XrRigAnimation xrRigAnimation;
     [SerializeField] public GameObject dialogueBox;
+    [SerializeField] public Animator labelAnimator;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        // Invoke("Play", 5);
     }
 
     // Update is called once per frame
@@ -25,5 +26,10 @@ public class MainMenu : MonoBehaviour
 
     public void Play() {
         dialogueBox.SetActive(true);
+        labelAnimator.Play("Labels");
+    }
+
+    public void Brushing() {
+        SceneChanger.Instance.LoadJawModel();
     }
 }
