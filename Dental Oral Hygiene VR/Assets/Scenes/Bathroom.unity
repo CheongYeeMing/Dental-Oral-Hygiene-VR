@@ -2752,6 +2752,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -0.68
       objectReference: {fileID: 0}
+    - target: {fileID: 5176521284514282995, guid: cd862cc06e4df5143a2189128e97ff6c, type: 3}
+      propertyPath: m_Name
+      value: Back Text Button Background
+      objectReference: {fileID: 0}
+    - target: {fileID: 5176521284645668029, guid: cd862cc06e4df5143a2189128e97ff6c, type: 3}
+      propertyPath: m_Name
+      value: Back Buttons Label
+      objectReference: {fileID: 0}
+    - target: {fileID: 5176521284645668031, guid: cd862cc06e4df5143a2189128e97ff6c, type: 3}
+      propertyPath: m_Text
+      value: Back
+      objectReference: {fileID: 0}
     - target: {fileID: 5176521284659323624, guid: cd862cc06e4df5143a2189128e97ff6c, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -2764,6 +2776,10 @@ PrefabInstance:
       propertyPath: m_AnchorMin.x
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5176521284826884963, guid: cd862cc06e4df5143a2189128e97ff6c, type: 3}
+      propertyPath: m_Name
+      value: Quit Button
+      objectReference: {fileID: 0}
     - target: {fileID: 5176521285132437431, guid: cd862cc06e4df5143a2189128e97ff6c, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -2776,6 +2792,10 @@ PrefabInstance:
       propertyPath: m_AnchorMin.x
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5176521285513553304, guid: cd862cc06e4df5143a2189128e97ff6c, type: 3}
+      propertyPath: m_Text
+      value: Quit
+      objectReference: {fileID: 0}
     - target: {fileID: 5176521285519606566, guid: cd862cc06e4df5143a2189128e97ff6c, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -2784,6 +2804,18 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5176521285770197435, guid: cd862cc06e4df5143a2189128e97ff6c, type: 3}
+      propertyPath: m_Name
+      value: Back Button
+      objectReference: {fileID: 0}
+    - target: {fileID: 5176521285967323184, guid: cd862cc06e4df5143a2189128e97ff6c, type: 3}
+      propertyPath: m_Name
+      value: Quit Game Button Label
+      objectReference: {fileID: 0}
+    - target: {fileID: 5176521285967323186, guid: cd862cc06e4df5143a2189128e97ff6c, type: 3}
+      propertyPath: m_Text
+      value: Quit
+      objectReference: {fileID: 0}
     - target: {fileID: 5176521286145586869, guid: cd862cc06e4df5143a2189128e97ff6c, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -2791,6 +2823,14 @@ PrefabInstance:
     - target: {fileID: 5176521286145586869, guid: cd862cc06e4df5143a2189128e97ff6c, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5176521286166891782, guid: cd862cc06e4df5143a2189128e97ff6c, type: 3}
+      propertyPath: m_Text
+      value: Back
+      objectReference: {fileID: 0}
+    - target: {fileID: 5176521286292290814, guid: cd862cc06e4df5143a2189128e97ff6c, type: 3}
+      propertyPath: m_Name
+      value: Quit Text Button Background
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cd862cc06e4df5143a2189128e97ff6c, type: 3}
