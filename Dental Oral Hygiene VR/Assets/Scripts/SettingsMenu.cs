@@ -6,6 +6,7 @@ public class SettingsMenu : MonoBehaviour
 {
     [SerializeField] SettingsMenuAnimation settingsMenuAnimation;
     [SerializeField] public XrRigAnimation xrRigAnimation;
+    [SerializeField] public Transition transition;
 
     // Start is called before the first frame update
     void Start()
@@ -25,6 +26,11 @@ public class SettingsMenu : MonoBehaviour
 
     public void MainMenu() {
         // Reference to scene changer instance to MM
+        transition.FadeOut();
+        Invoke("ChangeScene", 1);
+    }
+
+    public void ChangeScene() {
         SceneChanger.Instance.LoadBathroom();
     }
 
