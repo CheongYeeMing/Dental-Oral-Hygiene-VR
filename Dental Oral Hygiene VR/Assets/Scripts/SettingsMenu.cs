@@ -5,6 +5,7 @@ using UnityEngine;
 public class SettingsMenu : MonoBehaviour
 {
     [SerializeField] SettingsMenuAnimation settingsMenuAnimation;
+    [SerializeField] public XrRigAnimation xrRigAnimation;
 
     // Start is called before the first frame update
     void Start()
@@ -30,6 +31,7 @@ public class SettingsMenu : MonoBehaviour
     public void Back() {
         // Revert back to Main Menu View
         settingsMenuAnimation.Toggle();
+        xrRigAnimation.ToggleSettings();
     }
 
     public void Quit() {

@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class MainMenu : MonoBehaviour
 {
-    
+    [SerializeField] public XrRigAnimation xrRigAnimation;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -18,10 +19,10 @@ public class MainMenu : MonoBehaviour
     }
 
     public void Settings() {
-
+        xrRigAnimation.ToggleSettings();
     }
 
     public void Play() {
-
+        
     }
 }
