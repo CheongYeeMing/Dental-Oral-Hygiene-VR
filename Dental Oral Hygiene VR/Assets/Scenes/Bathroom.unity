@@ -1564,7 +1564,7 @@ Animator:
   m_GameObject: {fileID: 465771840}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: af3caa1ea4f1a6246867b5ed7f74efbe, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -2780,6 +2780,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Quit Button
       objectReference: {fileID: 0}
+    - target: {fileID: 5176521284826884991, guid: cd862cc06e4df5143a2189128e97ff6c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Quit
+      objectReference: {fileID: 0}
     - target: {fileID: 5176521285132437431, guid: cd862cc06e4df5143a2189128e97ff6c, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -2803,6 +2807,10 @@ PrefabInstance:
     - target: {fileID: 5176521285519606566, guid: cd862cc06e4df5143a2189128e97ff6c, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5176521285770197431, guid: cd862cc06e4df5143a2189128e97ff6c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Back
       objectReference: {fileID: 0}
     - target: {fileID: 5176521285770197435, guid: cd862cc06e4df5143a2189128e97ff6c, type: 3}
       propertyPath: m_Name
