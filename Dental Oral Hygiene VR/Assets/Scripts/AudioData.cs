@@ -2,17 +2,20 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class AudioData : MonoBehaviour
+public static class AudioData 
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
+    // Audio Manager Data
+    public static float musicVolume = 0.5f;
+    public static float effectsVolume = 0.5f;
+
+    public static void SaveAudioData() {
+        PlayerPrefs.DeleteAll();
+        PlayerPrefs.SetFloat("musicVolume", musicVolume);
+        PlayerPrefs.SetFloat("effectsVolume", effectsVolume);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+    public static void LoadAudioData() {
+        musicVolume = PlayerPrefs.GetFloat("musicVolume");
+        effectsVolume = PlayerPrefs.GetFloat("effectsVolume");
     }
 }
