@@ -1,5 +1,5 @@
 using System.Collections;
-using System.Collections.Generic;
+using System;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -46,7 +46,7 @@ public class AudioManager : MonoBehaviour
             s.source.pitch = SOUND_PITCH;
             s.source.loop = s.loop;
 
-            s.source.volume - slider.value;
+            s.source.volume = slider.value;
         }
     }
 
@@ -88,7 +88,7 @@ public class AudioManager : MonoBehaviour
         AudioData.effectsVolume = previousEffectsVolume;
         foreach (Sound s in effectsList)
         {
-            s.source.volume = previouEffectsVolume;
+            s.source.volume = previousEffectsVolume;
         }
     }
 
