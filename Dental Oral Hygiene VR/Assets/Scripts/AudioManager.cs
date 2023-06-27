@@ -94,10 +94,11 @@ public class AudioManager : MonoBehaviour
 
      public void ChangeMusic(string prevBG, string currBG)
     {
-        StartCoroutine(UpdateBGMPortal(prevBG, currBG));
+        StartCoroutine(UpdateBGM
+        (prevBG, currBG));
     }
 
-    public IEnumerator UpdateBGMPortal(string prevBG, string currBG)
+    public IEnumerator UpdateBGM(string prevBG, string currBG)
     {
         // Searching for previous and current Music
         Sound prev = Array.Find(musicList, sound => sound.name == prevBG);
