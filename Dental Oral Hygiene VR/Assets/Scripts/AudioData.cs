@@ -5,7 +5,7 @@ using UnityEngine;
 public static class AudioData 
 {
     // Audio Manager Data
-    public static float musicVolume = 0.5f;
+    public static float musicVolume = 0.15f;
     public static float effectsVolume = 0.5f;
 
     public static void SaveAudioData() {
