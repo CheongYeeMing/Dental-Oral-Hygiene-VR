@@ -38,6 +38,10 @@ public class SceneChanger : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
+    public string GetScene() {
+        return SceneManager.GetActiveScene().name;
+    }
+
     public void Exit()
     {
         Application.Quit();

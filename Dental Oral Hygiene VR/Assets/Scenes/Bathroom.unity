@@ -41453,7 +41453,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MusicVolumeSlider: {fileID: 833746796}
   EffectsVolumeSlider: {fileID: 833746795}
-  musicList: []
+  musicList:
+  - name: bathroom
+    clip: {fileID: 8300000, guid: 630dd026ce3b24c49870268d3834f12b, type: 3}
+    loop: 1
+    source: {fileID: 0}
+    volume: 0
+    pitch: 0
+  - name: jawmodel
+    clip: {fileID: 8300000, guid: dabd8f25e81fb224f94a9b361b68bf99, type: 3}
+    loop: 1
+    source: {fileID: 0}
+    volume: 0
+    pitch: 0
   effectsList: []
 --- !u!4 &2105310585
 Transform:

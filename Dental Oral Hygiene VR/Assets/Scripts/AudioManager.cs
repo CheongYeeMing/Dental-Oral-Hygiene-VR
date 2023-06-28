@@ -24,6 +24,19 @@ public class AudioManager : MonoBehaviour
         Initialise(EffectsVolumeSlider, effectsList);
     }
 
+    void Start() 
+    {
+        string scene = SceneChanger.Instance.GetScene();
+        if (scene == "Bathroom") 
+        {
+            StartCoroutine(PlayMusic("bathroom"));
+        } 
+        else 
+        {
+            StartCoroutine(PlayMusic("jawmodel"));
+        }
+    }
+
     private void GetSavedVolumeData()
     {
         MusicVolumeSlider.value = AudioData.musicVolume;
@@ -92,44 +105,33 @@ public class AudioManager : MonoBehaviour
         }
     }
 
-     public void ChangeMusic(string prevBG, string currBG)
+    public IEnumerator PlayMusic(string name)
     {
-        StartCoroutine(UpdateBGM
-        (prevBG, currBG));
-    }
-
-    public IEnumerator UpdateBGM(string prevBG, string currBG)
-    {
-        // Searching for previous and current Music
-        Sound prev = Array.Find(musicList, sound => sound.name == prevBG);
-        Sound curr = Array.Find(musicList, sound => sound.name == currBG);
-
-        // Gradually reduce volume of previous Music
-        for (int i = (int)(prev.source.volume * 100); i > 0; i--)
+        Sound s = Array.Find(musicList, sound => sound.name == name);
+        if (s == null || s.source.isPlaying) yield return null;
+        s.source.volume = 0;
+        s.source.Play();
+        // Gradually increase volume of current Music
+        while (s.source.volume < MusicVolumeSlider.value)
         {
-            prev.source.volume -= 0.01f;
+            s.source.volume += 0.001f;
             yield return null;
         }
 
-        // Swapping music
-        prev.source.Stop();
-        curr.source.volume = 0;
-        curr.source.Play();
-
-        // Gradually increase volume of current Music
-        for (int i = 0; i < MusicVolumeSlider.value; i++)
-        {
-            curr.source.volume += 0.01f;
-        }
-
-        curr.source.volume = MusicVolumeSlider.value;
+        s.source.volume = MusicVolumeSlider.value;
     }
 
-    public void PlayMusic(string name)
+    public IEnumerator StopMusic(string name)
     {
         Sound s = Array.Find(musicList, sound => sound.name == name);
-        if (s == null || s.source.isPlaying) return;
-        s.source.Play();
+        if (s == null) yield return null;
+        // Gradually decrease volume of current Music
+        while (s.source.volume > 0)
+        {
+            s.source.volume -= 0.001f;
+            yield return null;
+        }
+        s.source.Stop();
     }
 
     public void PlayEffect(string name)
@@ -137,13 +139,6 @@ public class AudioManager : MonoBehaviour
         Sound s = Array.Find(effectsList, sound => sound.name == name);
         if (s == null || s.source.isPlaying) return;
         s.source.Play();
-    }
-
-    public void StopMusic(string name)
-    {
-        Sound s = Array.Find(musicList, sound => sound.name == name);
-        if (s == null) return;
-        s.source.Stop();
     }
 
     public void StopEffect(string name)
