@@ -141,6 +141,8 @@ public class Monologue : MonoBehaviour
     public void VRDialogueBoxHandClick()
     {
         Debug.Log("Clicked!!!");
+        FindObjectOfType<AudioManager>().StopEffect("click");
+        FindObjectOfType<AudioManager>().PlayEffect("click");
         if (isTyping) 
         {
             CompleteSentence();
