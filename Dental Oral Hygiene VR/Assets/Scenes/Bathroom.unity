@@ -443,7 +443,7 @@ PrefabInstance:
       objectReference: {fileID: 771803947}
     - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
       propertyPath: Sequences.Array.size
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
       propertyPath: Sequences.Array.data[1].isEnd
@@ -459,7 +459,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
       propertyPath: Sequences.Array.data[4].isEnd
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
       propertyPath: Sequences.Array.data[5].isEnd
@@ -654,6 +654,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[4].isMainMenu
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
       propertyPath: Sequences.Array.data[2].plagueBrush
       value: 0
       objectReference: {fileID: 0}
@@ -731,7 +735,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
       propertyPath: Sequences.Array.data[4].monologue.Array.size
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
       propertyPath: Sequences.Array.data[5].monologue.Array.size
@@ -855,13 +859,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
       propertyPath: Sequences.Array.data[4].monologue.Array.data[0]
-      value: Finally, scrub the biting surfaces of the teeth using short back and
-        forth movements.
+      value: It has been two weeks since I've followed the oral hygiene instructions
+        from Dr Clara, my gums are no longer bleeding.
       objectReference: {fileID: 0}
     - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
       propertyPath: Sequences.Array.data[4].monologue.Array.data[1]
-      value: Congratulations on completing the task! Remember brushing 2-3 minutes
-        twice a day is all your gum and teeth ask!
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
       propertyPath: Sequences.Array.data[4].monologue.Array.data[2]

@@ -14,6 +14,9 @@ public class MainMenu : MonoBehaviour
     {
         // Invoke("Play", 5);
         // transition.Play("FadeOut");
+        if (MonologueData.sequenceNumber == 4) {
+            ContinueSetup();
+        }
     }
 
     // Update is called once per frame
@@ -30,6 +33,11 @@ public class MainMenu : MonoBehaviour
         // dialogueBox.SetActive(true);
         labelAnimator.Play("Labels");
         dialogueBox.GetComponent<Monologue>().Play();
+    }
+
+    public void ContinueSetup() {
+        labelAnimator.Play("Labels");
+        dialogueBox.GetComponent<Monologue>().ContinueSetup();
     }
 
     public void Brushing() {

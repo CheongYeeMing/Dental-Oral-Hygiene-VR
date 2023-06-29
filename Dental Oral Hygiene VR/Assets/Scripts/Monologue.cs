@@ -47,6 +47,8 @@ public class Monologue : MonoBehaviour
         public bool enableInterdentaldisableToothbrush;
         public bool isMainMenu;
         public bool activatePS;
+        public bool goBackMainMenu;
+        public bool reset;
 
         [TextArea(3, 15)]
         public string[] monologue;
@@ -79,7 +81,7 @@ public class Monologue : MonoBehaviour
     void Start()
     {
         monologueAnimation = GetComponent<MonologueAnimation>();
-        sequenceNumber = 0;
+        sequenceNumber = MonologueData.sequenceNumber;
         Debug.Log("Monologue Start");
     }
 
@@ -93,6 +95,12 @@ public class Monologue : MonoBehaviour
     }
 
     public void Play() 
+    {
+        Invoke("StartMonologue", 2);
+        MonologueData.sequenceNumber = 0;
+    }
+
+    public void ContinueSetup() 
     {
         Invoke("StartMonologue", 2);
     }
@@ -142,7 +150,22 @@ public class Monologue : MonoBehaviour
                 ps.SetActive(true);
             }
         }
+        if (Sequences[sequenceNumber].goBackMainMenu) 
+        {
+            Invoke("BackToMainMenu", 3);
+        }
+        if (Sequences[sequenceNumber].reset)
+        {
+            FindObjectOfType<MainMenu>().labelAnimator.Play("LabelsStay");
+            MonologueData.sequenceNumber = 0;
+            sequenceNumber = 0;
+        }
         sequenceNumber++;
+    }
+    
+    public void BackToMainMenu() {
+        FindObjectOfType<SettingsMenu>().MainMenu();
+        MonologueData.sequenceNumber = 4;
     }
 
     // Method to be triggered by VR Grabbable UI
@@ -328,6 +351,7 @@ public class Monologue : MonoBehaviour
         FindObjectOfType<AudioManager>().PlayEffect("success");
         isBrushing = false;
         toothbrush.ResetPosition();
+        interDentalToothbrush.ResetPosition();
         brushingProgressBar.IncrementProgress();
         Invoke("StartMonologue", 2);
     }
