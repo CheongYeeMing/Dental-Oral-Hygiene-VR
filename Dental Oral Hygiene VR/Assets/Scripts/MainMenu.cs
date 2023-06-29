@@ -27,8 +27,9 @@ public class MainMenu : MonoBehaviour
     }
 
     public void Play() {
-        dialogueBox.SetActive(true);
+        // dialogueBox.SetActive(true);
         labelAnimator.Play("Labels");
+        dialogueBox.GetComponent<Monologue>().Play();
     }
 
     public void Brushing() {

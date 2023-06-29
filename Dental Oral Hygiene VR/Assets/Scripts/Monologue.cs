@@ -89,6 +89,11 @@ public class Monologue : MonoBehaviour
         }
     }
 
+    public void Play() 
+    {
+        Invoke("StartMonologue", 2);
+    }
+
     public void StartMonologue()
     {
         if (!Sequences[sequenceNumber].isMainMenu) 
