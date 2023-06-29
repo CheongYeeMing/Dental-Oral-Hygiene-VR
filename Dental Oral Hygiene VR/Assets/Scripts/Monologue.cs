@@ -72,6 +72,8 @@ public class Monologue : MonoBehaviour
     private bool isTyping;
     public int currElement;
     private string currentSentence;
+    public float doubleClick = 1f;
+    public float clickTimer = 1;
 
     // Start is called before the first frame update
     void Start()
@@ -87,6 +89,7 @@ public class Monologue : MonoBehaviour
         if (isBrushing) {
             CheckBrushingCompletion();
         }
+        clickTimer += Time.deltaTime;
     }
 
     public void Play() 
@@ -145,6 +148,8 @@ public class Monologue : MonoBehaviour
     // Method to be triggered by VR Grabbable UI
     public void VRDialogueBoxHandClick()
     {
+        if (clickTimer < doubleClick) return;
+        clickTimer = 0;
         Debug.Log("Clicked!!!");
         FindObjectOfType<AudioManager>().StopEffect("click");
         FindObjectOfType<AudioManager>().PlayEffect("click");
