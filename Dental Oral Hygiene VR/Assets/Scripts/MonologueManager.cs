@@ -10,7 +10,8 @@ public class MonologueManager : MonoBehaviour
     void Start()
     {
         monologue = GetComponent<Monologue>();
-        if (SceneChanger.Instance.GetScene() == "jawmodel")
+        Debug.Log(SceneChanger.Instance.GetScene());
+        if (SceneChanger.Instance.GetScene() == "JawModel")
         {
             Invoke("InitializeMonologue", 5);  
         }
