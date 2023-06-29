@@ -27,7 +27,7 @@ public class SettingsMenu : MonoBehaviour
     public void MainMenu() {
         // Reference to scene changer instance to MM
         transition.FadeOut();
-        StartCoroutine(FindObjectOfType<AudioManager>().StopMusic("bathroom"));
+        StartCoroutine(FindObjectOfType<AudioManager>().StopMusic("jawmodel"));
         Invoke("ChangeScene", 1);
     }
 

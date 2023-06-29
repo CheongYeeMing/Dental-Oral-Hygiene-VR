@@ -34,6 +34,7 @@ public class MainMenu : MonoBehaviour
 
     public void Brushing() {
         transition.FadeOut();
+        StartCoroutine(FindObjectOfType<AudioManager>().StopMusic("bathroom"));
         Invoke("ChangeScene", 1);
     }
 
