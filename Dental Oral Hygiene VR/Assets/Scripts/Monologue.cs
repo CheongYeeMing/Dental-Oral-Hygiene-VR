@@ -325,6 +325,7 @@ public class Monologue : MonoBehaviour
         {
             return;
         }
+        FindObjectOfType<AudioManager>().PlayEffect("success");
         isBrushing = false;
         toothbrush.ResetPosition();
         brushingProgressBar.IncrementProgress();

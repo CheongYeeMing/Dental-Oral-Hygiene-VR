@@ -28,6 +28,8 @@ public class Toothbrush : MonoBehaviour
     private void OnTriggerEnter(Collider other) 
     {
         if (other.gameObject.tag == "Plague") {
+            FindObjectOfType<AudioManager>().StopEffect("brush");
+            FindObjectOfType<AudioManager>().PlayEffect("brush");
             other.gameObject.GetComponent<Plague>().ReduceHealth();
             Instantiate(foam, toothbrushHead.transform.position, transform.rotation);
         }  
