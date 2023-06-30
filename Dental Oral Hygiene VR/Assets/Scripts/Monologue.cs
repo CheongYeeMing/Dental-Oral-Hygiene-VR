@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class Monologue : MonoBehaviour
 {   
@@ -62,7 +63,7 @@ public class Monologue : MonoBehaviour
     private const string AUDIO_OPEN = "Open";
     private const string AUDIO_RETRO_CLICK = "RetroClick";
 
-    [SerializeField] private Text monologueBox;
+    [SerializeField] private TextMeshProUGUI monologueBox;
     [SerializeField] private JawSceneAnimation jawSceneAnimation;
     [SerializeField] private MonologueFocus monologueFocus;
     [SerializeField] private Material plagueInactive;
