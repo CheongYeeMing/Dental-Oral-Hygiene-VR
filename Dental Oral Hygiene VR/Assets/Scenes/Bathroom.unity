@@ -462,6 +462,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
+      propertyPath: Sequences.Array.data[4].reset
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
       propertyPath: Sequences.Array.data[5].isEnd
       value: 0
       objectReference: {fileID: 0}
