@@ -1,0 +1,162 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="com.unity3d.player" >
+5
+6    <uses-sdk
+7        android:minSdkVersion="23"
+7-->C:\Projects\NUS Dental Oral Hygiene VR\Dental-Oral-Hygiene-VR\Dental Oral Hygiene VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml
+8        android:targetSdkVersion="32" />
+8-->C:\Projects\NUS Dental Oral Hygiene VR\Dental-Oral-Hygiene-VR\Dental Oral Hygiene VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml
+9
+10    <supports-gl-texture android:name="GL_KHR_texture_compression_astc_ldr" />
+10-->C:\Projects\NUS Dental Oral Hygiene VR\Dental-Oral-Hygiene-VR\Dental Oral Hygiene VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:3-77
+10-->C:\Projects\NUS Dental Oral Hygiene VR\Dental-Oral-Hygiene-VR\Dental Oral Hygiene VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:24-74
+11
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Projects\NUS Dental Oral Hygiene VR\Dental-Oral-Hygiene-VR\Dental Oral Hygiene VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:3-65
+12-->C:\Projects\NUS Dental Oral Hygiene VR\Dental-Oral-Hygiene-VR\Dental Oral Hygiene VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:20-62
+13
+14    <uses-feature android:glEsVersion="0x00030000" />
+14-->C:\Projects\NUS Dental Oral Hygiene VR\Dental-Oral-Hygiene-VR\Dental Oral Hygiene VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:5:3-52
+14-->C:\Projects\NUS Dental Oral Hygiene VR\Dental-Oral-Hygiene-VR\Dental Oral Hygiene VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:5:17-49
+15    <uses-feature
+15-->C:\Projects\NUS Dental Oral Hygiene VR\Dental-Oral-Hygiene-VR\Dental Oral Hygiene VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:3-88
+16        android:name="android.hardware.touchscreen"
+16-->C:\Projects\NUS Dental Oral Hygiene VR\Dental-Oral-Hygiene-VR\Dental Oral Hygiene VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:17-60
+17        android:required="false" />
+17-->C:\Projects\NUS Dental Oral Hygiene VR\Dental-Oral-Hygiene-VR\Dental Oral Hygiene VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:61-85
+18    <uses-feature
+18-->C:\Projects\NUS Dental Oral Hygiene VR\Dental-Oral-Hygiene-VR\Dental Oral Hygiene VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:3-99
+19        android:name="android.hardware.touchscreen.multitouch"
+19-->C:\Projects\NUS Dental Oral Hygiene VR\Dental-Oral-Hygiene-VR\Dental Oral Hygiene VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:17-71
+20        android:required="false" />
+20-->C:\Projects\NUS Dental Oral Hygiene VR\Dental-Oral-Hygiene-VR\Dental Oral Hygiene VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:72-96
+21    <uses-feature
+21-->C:\Projects\NUS Dental Oral Hygiene VR\Dental-Oral-Hygiene-VR\Dental Oral Hygiene VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:8:3-108
+22        android:name="android.hardware.touchscreen.multitouch.distinct"
+22-->C:\Projects\NUS Dental Oral Hygiene VR\Dental-Oral-Hygiene-VR\Dental Oral Hygiene VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:8:17-80
+23        android:required="false" />
+23-->C:\Projects\NUS Dental Oral Hygiene VR\Dental-Oral-Hygiene-VR\Dental Oral Hygiene VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:8:81-105
+24    <uses-feature
+24-->C:\Projects\NUS Dental Oral Hygiene VR\Dental-Oral-Hygiene-VR\Dental Oral Hygiene VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:28:3-111
+25        android:name="android.hardware.vr.headtracking"
+25-->C:\Projects\NUS Dental Oral Hygiene VR\Dental-Oral-Hygiene-VR\Dental Oral Hygiene VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:28:17-64
+26        android:required="true"
+26-->C:\Projects\NUS Dental Oral Hygiene VR\Dental-Oral-Hygiene-VR\Dental Oral Hygiene VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:28:65-88
+27        android:version="1" />
+27-->C:\Projects\NUS Dental Oral Hygiene VR\Dental-Oral-Hygiene-VR\Dental Oral Hygiene VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:28:89-108
+28
+29    <uses-permission android:name="com.oculus.permission.HAND_TRACKING" />
+29-->C:\Projects\NUS Dental Oral Hygiene VR\Dental-Oral-Hygiene-VR\Dental Oral Hygiene VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:29:3-73
+29-->C:\Projects\NUS Dental Oral Hygiene VR\Dental-Oral-Hygiene-VR\Dental Oral Hygiene VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:29:20-70
+30
+31    <uses-feature
+31-->C:\Projects\NUS Dental Oral Hygiene VR\Dental-Oral-Hygiene-VR\Dental Oral Hygiene VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:30:3-88
+32        android:name="oculus.software.handtracking"
+32-->C:\Projects\NUS Dental Oral Hygiene VR\Dental-Oral-Hygiene-VR\Dental Oral Hygiene VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:30:17-60
+33        android:required="false" />
+33-->C:\Projects\NUS Dental Oral Hygiene VR\Dental-Oral-Hygiene-VR\Dental Oral Hygiene VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:30:61-85
+34
+35    <application android:extractNativeLibs="true" >
+35-->C:\Projects\NUS Dental Oral Hygiene VR\Dental-Oral-Hygiene-VR\Dental Oral Hygiene VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:3-27:17
+35-->C:\Projects\NUS Dental Oral Hygiene VR\Dental-Oral-Hygiene-VR\Dental Oral Hygiene VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:16-48
+36        <meta-data
+36-->C:\Projects\NUS Dental Oral Hygiene VR\Dental-Oral-Hygiene-VR\Dental Oral Hygiene VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:5-69
+37            android:name="unity.splash-mode"
+37-->C:\Projects\NUS Dental Oral Hygiene VR\Dental-Oral-Hygiene-VR\Dental Oral Hygiene VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:16-48
+38            android:value="0" />
+38-->C:\Projects\NUS Dental Oral Hygiene VR\Dental-Oral-Hygiene-VR\Dental Oral Hygiene VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:49-66
+39        <meta-data
+39-->C:\Projects\NUS Dental Oral Hygiene VR\Dental-Oral-Hygiene-VR\Dental Oral Hygiene VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:5-74
+40            android:name="unity.splash-enable"
+40-->C:\Projects\NUS Dental Oral Hygiene VR\Dental-Oral-Hygiene-VR\Dental Oral Hygiene VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:16-50
+41            android:value="True" />
+41-->C:\Projects\NUS Dental Oral Hygiene VR\Dental-Oral-Hygiene-VR\Dental Oral Hygiene VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:51-71
+42        <meta-data
+42-->C:\Projects\NUS Dental Oral Hygiene VR\Dental-Oral-Hygiene-VR\Dental Oral Hygiene VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:5-78
+43            android:name="unity.launch-fullscreen"
+43-->C:\Projects\NUS Dental Oral Hygiene VR\Dental-Oral-Hygiene-VR\Dental Oral Hygiene VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:16-54
+44            android:value="True" />
+44-->C:\Projects\NUS Dental Oral Hygiene VR\Dental-Oral-Hygiene-VR\Dental Oral Hygiene VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:55-75
+45        <meta-data
+45-->C:\Projects\NUS Dental Oral Hygiene VR\Dental-Oral-Hygiene-VR\Dental Oral Hygiene VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:5-84
+46            android:name="unity.allow-resizable-window"
+46-->C:\Projects\NUS Dental Oral Hygiene VR\Dental-Oral-Hygiene-VR\Dental Oral Hygiene VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:16-59
+47            android:value="False" />
+47-->C:\Projects\NUS Dental Oral Hygiene VR\Dental-Oral-Hygiene-VR\Dental Oral Hygiene VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:60-81
+48        <meta-data
+48-->C:\Projects\NUS Dental Oral Hygiene VR\Dental-Oral-Hygiene-VR\Dental Oral Hygiene VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:5-81
+49            android:name="notch.config"
+49-->C:\Projects\NUS Dental Oral Hygiene VR\Dental-Oral-Hygiene-VR\Dental Oral Hygiene VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:16-43
+50            android:value="portrait|landscape" />
+50-->C:\Projects\NUS Dental Oral Hygiene VR\Dental-Oral-Hygiene-VR\Dental Oral Hygiene VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:44-78
+51        <meta-data
+51-->C:\Projects\NUS Dental Oral Hygiene VR\Dental-Oral-Hygiene-VR\Dental Oral Hygiene VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:5-84
+52            android:name="unity.auto-report-fully-drawn"
+52-->C:\Projects\NUS Dental Oral Hygiene VR\Dental-Oral-Hygiene-VR\Dental Oral Hygiene VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:16-60
+53            android:value="true" />
+53-->C:\Projects\NUS Dental Oral Hygiene VR\Dental-Oral-Hygiene-VR\Dental Oral Hygiene VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:61-81
+54
+55        <activity
+55-->C:\Projects\NUS Dental Oral Hygiene VR\Dental-Oral-Hygiene-VR\Dental Oral Hygiene VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:5-25:16
+56            android:name="com.unity3d.player.UnityPlayerActivity"
+56-->C:\Projects\NUS Dental Oral Hygiene VR\Dental-Oral-Hygiene-VR\Dental Oral Hygiene VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:15-68
+57            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+57-->C:\Projects\NUS Dental Oral Hygiene VR\Dental-Oral-Hygiene-VR\Dental Oral Hygiene VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:180-361
+58            android:exported="true"
+58-->C:\Projects\NUS Dental Oral Hygiene VR\Dental-Oral-Hygiene-VR\Dental Oral Hygiene VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:433-456
+59            android:hardwareAccelerated="false"
+59-->C:\Projects\NUS Dental Oral Hygiene VR\Dental-Oral-Hygiene-VR\Dental Oral Hygiene VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:397-432
+60            android:launchMode="singleTask"
+60-->C:\Projects\NUS Dental Oral Hygiene VR\Dental-Oral-Hygiene-VR\Dental Oral Hygiene VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:148-179
+61            android:resizeableActivity="false"
+61-->C:\Projects\NUS Dental Oral Hygiene VR\Dental-Oral-Hygiene-VR\Dental Oral Hygiene VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:362-396
+62            android:screenOrientation="fullUser"
+62-->C:\Projects\NUS Dental Oral Hygiene VR\Dental-Oral-Hygiene-VR\Dental Oral Hygiene VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:111-147
+63            android:theme="@style/UnityThemeSelector" >
+63-->C:\Projects\NUS Dental Oral Hygiene VR\Dental-Oral-Hygiene-VR\Dental Oral Hygiene VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:69-110
+64            <intent-filter>
+64-->C:\Projects\NUS Dental Oral Hygiene VR\Dental-Oral-Hygiene-VR\Dental Oral Hygiene VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:7-21:23
+65                <category android:name="android.intent.category.LAUNCHER" />
+65-->C:\Projects\NUS Dental Oral Hygiene VR\Dental-Oral-Hygiene-VR\Dental Oral Hygiene VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:9-69
+65-->C:\Projects\NUS Dental Oral Hygiene VR\Dental-Oral-Hygiene-VR\Dental Oral Hygiene VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:19-66
+66
+67                <action android:name="android.intent.action.MAIN" />
+67-->C:\Projects\NUS Dental Oral Hygiene VR\Dental-Oral-Hygiene-VR\Dental Oral Hygiene VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:9-61
+67-->C:\Projects\NUS Dental Oral Hygiene VR\Dental-Oral-Hygiene-VR\Dental Oral Hygiene VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:17-58
+68
+69                <category android:name="com.oculus.intent.category.VR" />
+69-->C:\Projects\NUS Dental Oral Hygiene VR\Dental-Oral-Hygiene-VR\Dental Oral Hygiene VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:9-66
+69-->C:\Projects\NUS Dental Oral Hygiene VR\Dental-Oral-Hygiene-VR\Dental Oral Hygiene VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:19-63
+70            </intent-filter>
+71
+72            <meta-data
+72-->C:\Projects\NUS Dental Oral Hygiene VR\Dental-Oral-Hygiene-VR\Dental Oral Hygiene VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:7-82
+73                android:name="unityplayer.UnityActivity"
+73-->C:\Projects\NUS Dental Oral Hygiene VR\Dental-Oral-Hygiene-VR\Dental Oral Hygiene VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:18-58
+74                android:value="true" />
+74-->C:\Projects\NUS Dental Oral Hygiene VR\Dental-Oral-Hygiene-VR\Dental Oral Hygiene VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:59-79
+75            <meta-data
+75-->C:\Projects\NUS Dental Oral Hygiene VR\Dental-Oral-Hygiene-VR\Dental Oral Hygiene VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:7-70
+76                android:name="notch_support"
+76-->C:\Projects\NUS Dental Oral Hygiene VR\Dental-Oral-Hygiene-VR\Dental Oral Hygiene VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:18-46
+77                android:value="true" />
+77-->C:\Projects\NUS Dental Oral Hygiene VR\Dental-Oral-Hygiene-VR\Dental Oral Hygiene VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:47-67
+78            <meta-data
+78-->C:\Projects\NUS Dental Oral Hygiene VR\Dental-Oral-Hygiene-VR\Dental Oral Hygiene VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:7-81
+79                android:name="com.oculus.vr.focusaware"
+79-->C:\Projects\NUS Dental Oral Hygiene VR\Dental-Oral-Hygiene-VR\Dental Oral Hygiene VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:18-57
+80                android:value="true" />
+80-->C:\Projects\NUS Dental Oral Hygiene VR\Dental-Oral-Hygiene-VR\Dental Oral Hygiene VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:58-78
+81        </activity>
+82
+83        <meta-data
+83-->C:\Projects\NUS Dental Oral Hygiene VR\Dental-Oral-Hygiene-VR\Dental Oral Hygiene VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:5-98
+84            android:name="com.oculus.supportedDevices"
+84-->C:\Projects\NUS Dental Oral Hygiene VR\Dental-Oral-Hygiene-VR\Dental Oral Hygiene VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:16-58
+85            android:value="quest|quest2|cambria" />
+85-->C:\Projects\NUS Dental Oral Hygiene VR\Dental-Oral-Hygiene-VR\Dental Oral Hygiene VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:59-95
+86    </application>
+87
+88</manifest>

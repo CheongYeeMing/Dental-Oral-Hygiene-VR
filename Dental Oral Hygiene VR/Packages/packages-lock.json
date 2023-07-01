@@ -32,6 +32,15 @@
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
+    "com.unity.feature.vr": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {
+        "com.unity.xr.oculus": "4.0.0",
+        "com.unity.xr.openxr": "1.8.1"
+      }
+    },
     "com.unity.ide.rider": {
       "version": "3.0.24",
       "depth": 0,
