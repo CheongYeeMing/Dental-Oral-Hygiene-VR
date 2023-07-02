@@ -75,7 +75,7 @@ public class Monologue : MonoBehaviour
     private bool isTyping;
     public int currElement;
     private string currentSentence;
-    public float doubleClick = 1f;
+    public float doubleClick = 0.1f;
     public float clickTimer = 1;
 
     // Start is called before the first frame update

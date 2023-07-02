@@ -63,8 +63,6 @@ ScriptsOnlyBuild:
     - UnityEngine.Rendering.UI.UIFoldout
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
-    Unity.ShaderGraph.Editor.dll:
-    - UnityEditor.ShaderGraph.ShaderGraphProjectSettings
     Unity.TextMeshPro:
     - TMPro.TMP_FontAsset
     - TMPro.TMP_Settings
@@ -124,15 +122,11 @@ ScriptsOnlyBuild:
     - UnityEngine.XR.Interaction.Toolkit.XRSimpleInteractable
     Unity.XR.Management.Editor.dll:
     - UnityEditor.XR.Management.XRGeneralSettingsPerBuildTarget
-    - UnityEditor.XR.Management.XRManagerSettingsEditor
     Unity.XR.Management.dll:
     - UnityEngine.XR.Management.XRGeneralSettings
     - UnityEngine.XR.Management.XRManagerSettings
-    Unity.XR.Oculus.dll:
-    - Unity.XR.Oculus.OculusSettings
     Unity.XR.OpenXR.Editor.dll:
     - UnityEditor.XR.OpenXR.OpenXRPackageSettings
-    - UnityEditor.XR.OpenXR.PackageSettingsEditor
     Unity.XR.OpenXR.Features.ConformanceAutomation.dll:
     - UnityEngine.XR.OpenXR.Features.ConformanceAutomation.ConformanceAutomationFeature
     Unity.XR.OpenXR.Features.MetaQuestSupport.dll:
@@ -284,39 +278,6 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: Monologue
     methodName: VRDialogueBoxHandClick
-  - assembly: UnityEngine.UI
-    fullTypeName: UnityEngine.UI.Toggle
-    methodName: set_isOn
-  - assembly: UnityEngine.UI
-    fullTypeName: UnityEngine.UI.Toggle
-    methodName: set_isOn
-  - assembly: UnityEngine.UI
-    fullTypeName: UnityEngine.UI.Toggle
-    methodName: set_isOn
-  - assembly: UnityEngine.UI
-    fullTypeName: UnityEngine.UI.Toggle
-    methodName: set_isOn
-  - assembly: UnityEngine.UI
-    fullTypeName: UnityEngine.UI.Toggle
-    methodName: set_isOn
-  - assembly: UnityEngine.UI
-    fullTypeName: UnityEngine.UI.Toggle
-    methodName: set_isOn
-  - assembly: UnityEngine.UI
-    fullTypeName: UnityEngine.UI.Toggle
-    methodName: set_isOn
-  - assembly: UnityEngine.UI
-    fullTypeName: UnityEngine.UI.Toggle
-    methodName: set_isOn
-  - assembly: UnityEngine.UI
-    fullTypeName: UnityEngine.UI.Toggle
-    methodName: set_isOn
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
   - assembly: Assembly-CSharp
     fullTypeName: SettingsMenu
     methodName: Quit
@@ -332,6 +293,39 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: AudioManager
     methodName: PlayEffect
+  - assembly: UnityEngine.UI
+    fullTypeName: UnityEngine.UI.Toggle
+    methodName: set_isOn
+  - assembly: UnityEngine.UI
+    fullTypeName: UnityEngine.UI.Toggle
+    methodName: set_isOn
+  - assembly: UnityEngine.UI
+    fullTypeName: UnityEngine.UI.Toggle
+    methodName: set_isOn
+  - assembly: UnityEngine.UI
+    fullTypeName: UnityEngine.UI.Toggle
+    methodName: set_isOn
+  - assembly: UnityEngine.UI
+    fullTypeName: UnityEngine.UI.Toggle
+    methodName: set_isOn
+  - assembly: UnityEngine.UI
+    fullTypeName: UnityEngine.UI.Toggle
+    methodName: set_isOn
+  - assembly: UnityEngine.UI
+    fullTypeName: UnityEngine.UI.Toggle
+    methodName: set_isOn
+  - assembly: UnityEngine.UI
+    fullTypeName: UnityEngine.UI.Toggle
+    methodName: set_isOn
+  - assembly: UnityEngine.UI
+    fullTypeName: UnityEngine.UI.Toggle
+    methodName: set_isOn
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
@@ -422,6 +416,18 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: AudioManager
     methodName: PlayEffect
+  - assembly: Assembly-CSharp
+    fullTypeName: AudioManager
+    methodName: PlayEffect
+  - assembly: Assembly-CSharp
+    fullTypeName: AudioManager
+    methodName: PlayEffect
+  - assembly: Assembly-CSharp
+    fullTypeName: AudioManager
+    methodName: StopEffect
+  - assembly: Assembly-CSharp
+    fullTypeName: AudioManager
+    methodName: StopEffect
   - assembly: Assembly-CSharp
     fullTypeName: MainMenu
     methodName: Brushing
@@ -498,6 +504,51 @@ ScriptsOnlyBuild:
     fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerPanel
     methodName: ResetDebugManager
   - assembly: Assembly-CSharp
+    fullTypeName: SettingsMenu
+    methodName: MainMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: AudioManager
+    methodName: PlayEffect
+  - assembly: Assembly-CSharp
+    fullTypeName: SettingsMenu
+    methodName: Resume
+  - assembly: Assembly-CSharp
+    fullTypeName: AudioManager
+    methodName: PlayEffect
+  - assembly: UnityEngine.UI
+    fullTypeName: UnityEngine.UI.Toggle
+    methodName: set_isOn
+  - assembly: UnityEngine.UI
+    fullTypeName: UnityEngine.UI.Toggle
+    methodName: set_isOn
+  - assembly: UnityEngine.UI
+    fullTypeName: UnityEngine.UI.Toggle
+    methodName: set_isOn
+  - assembly: UnityEngine.UI
+    fullTypeName: UnityEngine.UI.Toggle
+    methodName: set_isOn
+  - assembly: UnityEngine.UI
+    fullTypeName: UnityEngine.UI.Toggle
+    methodName: set_isOn
+  - assembly: UnityEngine.UI
+    fullTypeName: UnityEngine.UI.Toggle
+    methodName: set_isOn
+  - assembly: UnityEngine.UI
+    fullTypeName: UnityEngine.UI.Toggle
+    methodName: set_isOn
+  - assembly: UnityEngine.UI
+    fullTypeName: UnityEngine.UI.Toggle
+    methodName: set_isOn
+  - assembly: UnityEngine.UI
+    fullTypeName: UnityEngine.UI.Toggle
+    methodName: set_isOn
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Assembly-CSharp
     fullTypeName: Monologue
     methodName: VRDialogueBoxHandClick
   - assembly: Assembly-CSharp
@@ -512,39 +563,6 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: AudioManager
     methodName: PlayEffect
-  - assembly: UnityEngine.UI
-    fullTypeName: UnityEngine.UI.Toggle
-    methodName: set_isOn
-  - assembly: UnityEngine.UI
-    fullTypeName: UnityEngine.UI.Toggle
-    methodName: set_isOn
-  - assembly: UnityEngine.UI
-    fullTypeName: UnityEngine.UI.Toggle
-    methodName: set_isOn
-  - assembly: UnityEngine.UI
-    fullTypeName: UnityEngine.UI.Toggle
-    methodName: set_isOn
-  - assembly: UnityEngine.UI
-    fullTypeName: UnityEngine.UI.Toggle
-    methodName: set_isOn
-  - assembly: UnityEngine.UI
-    fullTypeName: UnityEngine.UI.Toggle
-    methodName: set_isOn
-  - assembly: UnityEngine.UI
-    fullTypeName: UnityEngine.UI.Toggle
-    methodName: set_isOn
-  - assembly: UnityEngine.UI
-    fullTypeName: UnityEngine.UI.Toggle
-    methodName: set_isOn
-  - assembly: UnityEngine.UI
-    fullTypeName: UnityEngine.UI.Toggle
-    methodName: set_isOn
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
@@ -599,18 +617,6 @@ ScriptsOnlyBuild:
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
-  - assembly: Assembly-CSharp
-    fullTypeName: SettingsMenu
-    methodName: MainMenu
-  - assembly: Assembly-CSharp
-    fullTypeName: AudioManager
-    methodName: PlayEffect
-  - assembly: Assembly-CSharp
-    fullTypeName: SettingsMenu
-    methodName: Resume
-  - assembly: Assembly-CSharp
-    fullTypeName: AudioManager
-    methodName: PlayEffect
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
@@ -3368,4 +3374,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/Bathroom.unity
   - Assets/Scenes/JawModel.unity
   playerPath: C:/Projects/NUS Dental Oral Hygiene VR/Dental-Oral-Hygiene-VR/Dental
-    Oral Hygiene VR/Build/Dental-Oral-Hygiene_v0.1.apk
+    Oral Hygiene VR/Build/Dental-Oral-Hygiene_v0.2.apk

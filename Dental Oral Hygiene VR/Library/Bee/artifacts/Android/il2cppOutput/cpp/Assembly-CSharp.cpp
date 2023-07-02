@@ -5249,7 +5249,7 @@ IL_008f:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Monologue__ctor_mB65DB192ACD5CF76A19F569614624CDCF5D67DE1 (Monologue_tF827698B0F9B4C8EA7F48F69FF7C595383DD19EA* __this, const RuntimeMethod* method) 
 {
 	{
-		__this->___doubleClick = (1.0f);
+		__this->___doubleClick = (0.100000001f);
 		__this->___clickTimer = (1.0f);
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
@@ -5761,7 +5761,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParticleSystemDestroyer__ctor_m6D49F3765
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Plague_Awake_m158EE97C155B7A9953228CE4B5DC92C3C4F7A481 (Plague_tADF0B7C00BBE96E35F17F9EAA403AF185D809BEF* __this, const RuntimeMethod* method) 
 {
 	{
-		__this->___health = 1;
+		__this->___health = 3;
 		return;
 	}
 }

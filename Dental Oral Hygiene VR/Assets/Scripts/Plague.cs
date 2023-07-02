@@ -11,7 +11,7 @@ public class Plague : MonoBehaviour
     private float brushTimer;
 
     private void Awake() {
-        health = 1;
+        health = 3;
     }
 
     // Start is called before the first frame update

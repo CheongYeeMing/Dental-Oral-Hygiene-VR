@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.33584356, g: 0.6986593, b: 0.89354545, a: 1}
+  m_IndirectSpecularColor: {r: 0.33636314, g: 0.6978123, b: 0.89127475, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -444,10 +444,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1494765045}
     - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
-      propertyPath: monologueBox
-      value: 
-      objectReference: {fileID: 1494765045}
-    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
       propertyPath: PS.Array.size
       value: 3
       objectReference: {fileID: 0}
@@ -481,10 +477,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
       propertyPath: Sequences.Array.data[4].isEnd
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
-      propertyPath: Sequences.Array.data[4].reset
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
@@ -14079,10 +14071,58 @@ MonoBehaviour:
       m_Calls: []
   m_HoverEntered:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2105310584}
+        m_TargetAssemblyTypeName: AudioManager, Assembly-CSharp
+        m_MethodName: PlayEffect
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: hover
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2105310584}
+        m_TargetAssemblyTypeName: AudioManager, Assembly-CSharp
+        m_MethodName: PlayEffect
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: chimes
+          m_BoolArgument: 0
+        m_CallState: 2
   m_HoverExited:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2105310584}
+        m_TargetAssemblyTypeName: AudioManager, Assembly-CSharp
+        m_MethodName: StopEffect
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: hover
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2105310584}
+        m_TargetAssemblyTypeName: AudioManager, Assembly-CSharp
+        m_MethodName: StopEffect
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: chimes
+          m_BoolArgument: 0
+        m_CallState: 2
   m_FirstSelectEntered:
     m_PersistentCalls:
       m_Calls: []
@@ -30487,6 +30527,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 120347881}
   m_RootOrder: 3
@@ -30912,7 +30953,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0a1302d0d134fa8a2a5b3bf4aec3c20, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_PermittedDisplacementAxes: 7
+  m_PermittedDisplacementAxes: -1
   m_ConstrainedAxisDisplacementMode: 1
   m_TwoHandedRotationMode: 1
   m_AllowTwoHandedScaling: 0
