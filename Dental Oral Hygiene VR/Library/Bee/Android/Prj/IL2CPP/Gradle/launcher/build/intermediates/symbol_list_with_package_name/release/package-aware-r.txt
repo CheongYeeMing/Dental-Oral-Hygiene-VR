@@ -1,4 +1,4 @@
-com.CheongYeeMing.DentalOralHygieneVR
+com.CheongYeeMing.DentalOralHygiene
 id unitySurfaceView
 mipmap app_icon
 mipmap app_icon_round
