@@ -410,6 +410,7 @@
 "Assets/Scripts/MonologueManager.cs"
 "Assets/Scripts/ParticleSystemDestroyer.cs"
 "Assets/Scripts/Plague.cs"
+"Assets/Scripts/PlayerController.cs"
 "Assets/Scripts/SceneChanger.cs"
 "Assets/Scripts/SettingsMenu.cs"
 "Assets/Scripts/SettingsMenuAnimation.cs"
