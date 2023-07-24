@@ -121,6 +121,8 @@ extern void Plague_Update_m69B126C5356444F71395EA64EC1B60ECF0C56DB3 (void);
 extern void Plague_ReduceHealth_mB4170C8C7858D23D2CE14654920176B2EC3625A4 (void);
 extern void Plague_RemovePlague_m0546FE40269BB3DBA160CCDB567097DEEF709DA1 (void);
 extern void Plague__ctor_mA38CB9AACE38316BF14AEB6CDB33773DCE06F2F4 (void);
+extern void PlayerController_Start_m1D83076E8B136A71051F2F02545EE04947D3A8CF (void);
+extern void PlayerController__ctor_mDDAB7C7D82E1A5B3E6C197B1AB9D653DFE554F33 (void);
 extern void SceneChanger_Awake_m8F46664067D8BCB85ABDEB55A373CED905CAF8E1 (void);
 extern void SceneChanger_LoadScene_m72806BCC0E47871E63F345FEFED00F8928DE748E (void);
 extern void SceneChanger_LoadBathroom_m515CFDBC855CFA579B2E0C366926501D51D8373A (void);
@@ -169,7 +171,7 @@ extern void XRSceneManager_Update_m2B075EB0870986C39ECAE73AA3CE205B22EE359F (voi
 extern void XRSceneManager__ctor_m235729912866AA88D99457E5A8FC58365D77A449 (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (void);
-static Il2CppMethodPointer s_methodPointers[159] = 
+static Il2CppMethodPointer s_methodPointers[161] = 
 {
 	NULL,
 	NULL,
@@ -282,6 +284,8 @@ static Il2CppMethodPointer s_methodPointers[159] =
 	Plague_ReduceHealth_mB4170C8C7858D23D2CE14654920176B2EC3625A4,
 	Plague_RemovePlague_m0546FE40269BB3DBA160CCDB567097DEEF709DA1,
 	Plague__ctor_mA38CB9AACE38316BF14AEB6CDB33773DCE06F2F4,
+	PlayerController_Start_m1D83076E8B136A71051F2F02545EE04947D3A8CF,
+	PlayerController__ctor_mDDAB7C7D82E1A5B3E6C197B1AB9D653DFE554F33,
 	SceneChanger_Awake_m8F46664067D8BCB85ABDEB55A373CED905CAF8E1,
 	SceneChanger_LoadScene_m72806BCC0E47871E63F345FEFED00F8928DE748E,
 	SceneChanger_LoadBathroom_m515CFDBC855CFA579B2E0C366926501D51D8373A,
@@ -331,7 +335,7 @@ static Il2CppMethodPointer s_methodPointers[159] =
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033,
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1,
 };
-static const int32_t s_InvokerIndices[159] = 
+static const int32_t s_InvokerIndices[161] = 
 {
 	0,
 	0,
@@ -445,6 +449,8 @@ static const int32_t s_InvokerIndices[159] =
 	7688,
 	7688,
 	7688,
+	7688,
+	7688,
 	6017,
 	7688,
 	7688,
@@ -497,7 +503,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	159,
+	161,
 	s_methodPointers,
 	0,
 	NULL,

@@ -4,15 +4,10 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    [SerializeField] Transform parent;
+    private void Start()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        parent.localPosition = new Vector3(25.028f, 10.702f, -25.074f);
+        parent.localRotation = Quaternion.Euler(new Vector3(0f, 135f, 0f));
     }
 }
