@@ -15,7 +15,7 @@ C:/Projects/NUS Dental Oral Hygiene VR/Dental-Oral-Hygiene-VR/Dental Oral Hygien
 -logFile
 Logs/AssetImportWorker4.log
 -srvPort
-64824
+56115
 Successfully changed project path to: C:/Projects/NUS Dental Oral Hygiene VR/Dental-Oral-Hygiene-VR/Dental Oral Hygiene VR
 C:/Projects/NUS Dental Oral Hygiene VR/Dental-Oral-Hygiene-VR/Dental Oral Hygiene VR
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Projects/NUS Dental Oral Hygiene VR/Dental-Oral-Hygiene-VR/Dental Oral Hygien
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [19220] Host "[IP] 172.31.65.177 [Port] 0 [Flags] 2 [Guid] 1712297638 [EditorId] 1712297638 [Version] 1048832 [Id] WindowsEditor(7,YeeMing) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [26512] Host "[IP] 172.31.65.177 [Port] 0 [Flags] 2 [Guid] 3814773215 [EditorId] 3814773215 [Version] 1048832 [Id] WindowsEditor(7,YeeMing) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [19220] Host "[IP] 172.31.65.177 [Port] 0 [Flags] 2 [Guid] 1712297638 [EditorId] 1712297638 [Version] 1048832 [Id] WindowsEditor(7,YeeMing) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [26512] Host "[IP] 172.31.65.177 [Port] 0 [Flags] 2 [Guid] 3814773215 [EditorId] 3814773215 [Version] 1048832 [Id] WindowsEditor(7,YeeMing) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 2071.16 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.49 ms.
+Refreshing native plugins compatible for Editor in 9.43 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.39 ms.
 Initialize engine version: 2022.3.4f1 (35713cd46cd7)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Projects/NUS Dental Oral Hygiene VR/Dental-Oral-Hygiene-VR/Dental Oral Hygiene VR/Assets
@@ -69,47 +69,47 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56576
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56312
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.267626 seconds.
-- Loaded All Assemblies, in  6.318 seconds
+Registered in 0.003391 seconds.
+- Loaded All Assemblies, in  0.184 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 337 ms
+Android Extension - Scanning For ADB Devices 136 ms
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.531 seconds
-Domain Reload Profiling: 6848ms
-	BeginReloadAssembly (4440ms)
+- Finished resetting the current domain, in  0.311 seconds
+Domain Reload Profiling: 494ms
+	BeginReloadAssembly (48ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (0ms)
-	RebuildCommonClasses (400ms)
+	RebuildCommonClasses (19ms)
 	RebuildNativeTypeToScriptingClass (6ms)
-	initialDomainReloadingComplete (298ms)
-	LoadAllAssembliesAndSetupDomain (1174ms)
-		LoadAssemblies (4439ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (79ms)
+		LoadAssemblies (47ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (1171ms)
-			TypeCache.Refresh (1170ms)
-				TypeCache.ScanAssembly (939ms)
+		AnalyzeDomain (76ms)
+			TypeCache.Refresh (76ms)
+				TypeCache.ScanAssembly (69ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (531ms)
+	FinalizeReload (311ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (498ms)
+		SetupLoadedEditorAssemblies (279ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (411ms)
+			InitializePlatformSupportModulesInManaged (200ms)
 			SetLoadedEditorAssemblies (2ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (1ms)
-			ProcessInitializeOnLoadAttributes (53ms)
-			ProcessInitializeOnLoadMethodAttributes (30ms)
+			ProcessInitializeOnLoadAttributes (52ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -117,8 +117,8 @@ Domain Reload Profiling: 6848ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  8.475 seconds
-Refreshing native plugins compatible for Editor in 6.09 ms, found 12 plugins.
+- Loaded All Assemblies, in  0.412 seconds
+Refreshing native plugins compatible for Editor in 6.24 ms, found 12 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Package Manager log level set to [2]
@@ -147,47 +147,47 @@ Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.424 seconds
-Domain Reload Profiling: 8896ms
-	BeginReloadAssembly (79ms)
+- Finished resetting the current domain, in  0.406 seconds
+Domain Reload Profiling: 817ms
+	BeginReloadAssembly (70ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (13ms)
-	RebuildCommonClasses (21ms)
+	RebuildCommonClasses (18ms)
 	RebuildNativeTypeToScriptingClass (6ms)
-	initialDomainReloadingComplete (29ms)
-	LoadAllAssembliesAndSetupDomain (8337ms)
-		LoadAssemblies (7985ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (293ms)
+		LoadAssemblies (153ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (389ms)
-			TypeCache.Refresh (360ms)
-				TypeCache.ScanAssembly (309ms)
-			ScanForSourceGeneratedMonoScriptInfo (24ms)
+		AnalyzeDomain (173ms)
+			TypeCache.Refresh (150ms)
+				TypeCache.ScanAssembly (142ms)
+			ScanForSourceGeneratedMonoScriptInfo (17ms)
 			ResolveRequiredComponents (6ms)
-	FinalizeReload (424ms)
+	FinalizeReload (406ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (324ms)
+		SetupLoadedEditorAssemblies (311ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (14ms)
+			InitializePlatformSupportModulesInManaged (13ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (48ms)
-			ProcessInitializeOnLoadAttributes (190ms)
-			ProcessInitializeOnLoadMethodAttributes (66ms)
-			AfterProcessingInitializeOnLoad (3ms)
+			BeforeProcessingInitializeOnLoad (45ms)
+			ProcessInitializeOnLoadAttributes (179ms)
+			ProcessInitializeOnLoadMethodAttributes (68ms)
+			AfterProcessingInitializeOnLoad (4ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (4ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 7.49 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.03 ms.
+Refreshing native plugins compatible for Editor in 9.91 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.04 ms.
 Unloading 4890 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 113 unused Assets / (0.5 MB). Loaded Objects now: 5368.
-Memory consumption went from 200.1 MB to 199.5 MB.
-Total: 2.713600 ms (FindLiveObjects: 0.276500 ms CreateObjectMapping: 0.091100 ms MarkObjects: 2.089600 ms  DeleteObjects: 0.255700 ms)
+Unloading 113 unused Assets / (0.6 MB). Loaded Objects now: 5368.
+Memory consumption went from 200.0 MB to 199.4 MB.
+Total: 2.610500 ms (FindLiveObjects: 0.215500 ms CreateObjectMapping: 0.080300 ms MarkObjects: 2.045000 ms  DeleteObjects: 0.269100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -204,9 +204,9 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 380713.545996 seconds.
-  path: Assets/Sprites/Toothbrush/toothbrush.mtl
-  artifactKey: Guid(722b93a4d925eec4895698635256eeee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Toothbrush/toothbrush.mtl using Guid(722b93a4d925eec4895698635256eeee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '035eb75f7058d68466e113dfe86d5f99') in 0.009312 seconds
+  Time since last request: 426821.051119 seconds.
+  path: Assets/Sprites/UI/Gingivitis.jpeg
+  artifactKey: Guid(96b21b4ab99840542b6099ddb461166a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI/Gingivitis.jpeg using Guid(96b21b4ab99840542b6099ddb461166a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f897a012aa1d8138d459d63790e1820a') in 0.084300 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 3
