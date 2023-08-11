@@ -35,7 +35,10 @@ public class Monologue : MonoBehaviour
     [SerializeField] JawAnimation jawAnimation;
     [SerializeField] GameObject upperJaw;
     [SerializeField] GameObject lowerJaw;
+    [SerializeField] GameObject jawModel;
     [SerializeField] GameObject image;
+    [SerializeField] List<GameObject> toothbrushSelection;
+    [SerializeField] List<GameObject> toothbrushes;
 
     [System.Serializable]
     public class Sequence
@@ -52,6 +55,9 @@ public class Monologue : MonoBehaviour
         public bool goBackMainMenu;
         public bool reset;
         public bool hasImage;
+        public bool isToothbrushSelectionPhase;
+        public bool isOngoingSelectionPhase;
+        public bool isEndOfToothbrushSelectionPhase;
         public Sprite image;
 
         [TextArea(3, 15)]
@@ -123,6 +129,20 @@ public class Monologue : MonoBehaviour
             image.SetActive(true);
             image.GetComponent<Image>().sprite = Sequences[sequenceNumber].image;
         }
+        if (Sequences[sequenceNumber].isToothbrushSelectionPhase || Sequences[sequenceNumber].isOngoingSelectionPhase) {
+            foreach (GameObject toothbrush in toothbrushSelection) {
+                toothbrush.GetComponent<BoxCollider>().enabled = false;
+            }
+        }
+        if (Sequences[sequenceNumber].isToothbrushSelectionPhase) {
+            foreach (GameObject toothbrush in toothbrushSelection) {
+                toothbrush.SetActive(true);
+            }
+            foreach (GameObject toothbrush in toothbrushes) {
+                toothbrush.SetActive(false);
+            }
+            jawModel.SetActive(false);
+        }
         StartCoroutine(TypeSentence(Sequences[sequenceNumber].monologue[currElement]));
     }
 
@@ -171,6 +191,22 @@ public class Monologue : MonoBehaviour
         if (Sequences[sequenceNumber].hasImage) {
             image.SetActive(false);
         }
+        if (Sequences[sequenceNumber].isToothbrushSelectionPhase || Sequences[sequenceNumber].isOngoingSelectionPhase) {
+            foreach (GameObject toothbrush in toothbrushSelection) {
+                toothbrush.GetComponent<BoxCollider>().enabled = true;
+            }
+        }
+        if (Sequences[sequenceNumber].isEndOfToothbrushSelectionPhase) {
+            foreach (GameObject toothbrush in toothbrushSelection) {
+                toothbrush.SetActive(false);
+            }
+            foreach (GameObject toothbrush in toothbrushes) {
+                toothbrush.SetActive(true);
+            }
+            jawModel.SetActive(true);
+            jawModel.GetComponent<JawAnimation>().Toggle();
+        }
+        if (sequenceNumber == 9) return;
         sequenceNumber++;
     }
     
@@ -235,6 +271,7 @@ public class Monologue : MonoBehaviour
     {
         if (angle == "upper_teeth_a") 
         {
+            jawModel.GetComponent<JawAnimation>().Toggle();
             ActivateBoxCollider(UPPER_TEETH_A);
         } 
         else if (angle == "upper_teeth_b")
