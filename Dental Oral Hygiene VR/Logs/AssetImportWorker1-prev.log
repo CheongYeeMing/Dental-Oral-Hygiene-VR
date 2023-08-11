@@ -15,7 +15,7 @@ C:/Projects/NUS Dental Oral Hygiene VR/Dental-Oral-Hygiene-VR/Dental Oral Hygien
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-64824
+56115
 Successfully changed project path to: C:/Projects/NUS Dental Oral Hygiene VR/Dental-Oral-Hygiene-VR/Dental Oral Hygiene VR
 C:/Projects/NUS Dental Oral Hygiene VR/Dental-Oral-Hygiene-VR/Dental Oral Hygiene VR
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Projects/NUS Dental Oral Hygiene VR/Dental-Oral-Hygiene-VR/Dental Oral Hygien
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [1772] Host "[IP] 172.31.65.177 [Port] 0 [Flags] 2 [Guid] 2417508211 [EditorId] 2417508211 [Version] 1048832 [Id] WindowsEditor(7,YeeMing) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [26436] Host "[IP] 172.31.65.177 [Port] 0 [Flags] 2 [Guid] 641838009 [EditorId] 641838009 [Version] 1048832 [Id] WindowsEditor(7,YeeMing) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [1772] Host "[IP] 172.31.65.177 [Port] 0 [Flags] 2 [Guid] 2417508211 [EditorId] 2417508211 [Version] 1048832 [Id] WindowsEditor(7,YeeMing) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [26436] Host "[IP] 172.31.65.177 [Port] 0 [Flags] 2 [Guid] 641838009 [EditorId] 641838009 [Version] 1048832 [Id] WindowsEditor(7,YeeMing) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 1762.30 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.77 ms.
+Refreshing native plugins compatible for Editor in 1806.61 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.60 ms.
 Initialize engine version: 2022.3.4f1 (35713cd46cd7)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Projects/NUS Dental Oral Hygiene VR/Dental-Oral-Hygiene-VR/Dental Oral Hygiene VR/Assets
@@ -69,47 +69,47 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56144
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56372
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.269172 seconds.
-- Loaded All Assemblies, in  5.980 seconds
+Registered in 0.270646 seconds.
+- Loaded All Assemblies, in  6.186 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 178 ms
+Android Extension - Scanning For ADB Devices 173 ms
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.399 seconds
-Domain Reload Profiling: 6379ms
-	BeginReloadAssembly (4205ms)
+- Finished resetting the current domain, in  0.375 seconds
+Domain Reload Profiling: 6561ms
+	BeginReloadAssembly (4281ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (0ms)
-	RebuildCommonClasses (347ms)
+	RebuildCommonClasses (508ms)
 	RebuildNativeTypeToScriptingClass (6ms)
-	initialDomainReloadingComplete (298ms)
-	LoadAllAssembliesAndSetupDomain (1123ms)
-		LoadAssemblies (4204ms)
+	initialDomainReloadingComplete (302ms)
+	LoadAllAssembliesAndSetupDomain (1088ms)
+		LoadAssemblies (4280ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (1120ms)
-			TypeCache.Refresh (1120ms)
-				TypeCache.ScanAssembly (879ms)
+		AnalyzeDomain (1085ms)
+			TypeCache.Refresh (1084ms)
+				TypeCache.ScanAssembly (857ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (400ms)
+	FinalizeReload (376ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (361ms)
+		SetupLoadedEditorAssemblies (338ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (257ms)
-			SetLoadedEditorAssemblies (3ms)
+			InitializePlatformSupportModulesInManaged (246ms)
+			SetLoadedEditorAssemblies (2ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (1ms)
-			ProcessInitializeOnLoadAttributes (63ms)
-			ProcessInitializeOnLoadMethodAttributes (37ms)
+			ProcessInitializeOnLoadAttributes (54ms)
+			ProcessInitializeOnLoadMethodAttributes (34ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -117,8 +117,8 @@ Domain Reload Profiling: 6379ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  7.589 seconds
-Refreshing native plugins compatible for Editor in 5.85 ms, found 12 plugins.
+- Loaded All Assemblies, in  7.290 seconds
+Refreshing native plugins compatible for Editor in 6.94 ms, found 12 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Package Manager log level set to [2]
@@ -147,47 +147,47 @@ Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.498 seconds
-Domain Reload Profiling: 8086ms
-	BeginReloadAssembly (74ms)
+- Finished resetting the current domain, in  0.459 seconds
+Domain Reload Profiling: 7747ms
+	BeginReloadAssembly (80ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (13ms)
-	RebuildCommonClasses (18ms)
+		CreateAndSetChildDomain (14ms)
+	RebuildCommonClasses (23ms)
 	RebuildNativeTypeToScriptingClass (6ms)
-	initialDomainReloadingComplete (23ms)
-	LoadAllAssembliesAndSetupDomain (7466ms)
-		LoadAssemblies (7017ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (7152ms)
+		LoadAssemblies (6811ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (485ms)
-			TypeCache.Refresh (445ms)
-				TypeCache.ScanAssembly (400ms)
-			ScanForSourceGeneratedMonoScriptInfo (27ms)
-			ResolveRequiredComponents (14ms)
-	FinalizeReload (499ms)
+		AnalyzeDomain (380ms)
+			TypeCache.Refresh (356ms)
+				TypeCache.ScanAssembly (312ms)
+			ScanForSourceGeneratedMonoScriptInfo (18ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (459ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (352ms)
+		SetupLoadedEditorAssemblies (345ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (14ms)
+			InitializePlatformSupportModulesInManaged (15ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (50ms)
-			ProcessInitializeOnLoadAttributes (207ms)
-			ProcessInitializeOnLoadMethodAttributes (75ms)
-			AfterProcessingInitializeOnLoad (3ms)
+			BeforeProcessingInitializeOnLoad (53ms)
+			ProcessInitializeOnLoadAttributes (204ms)
+			ProcessInitializeOnLoadMethodAttributes (66ms)
+			AfterProcessingInitializeOnLoad (4ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (4ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 7.99 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.04 ms.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 8.45 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.03 ms.
 Unloading 4890 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 113 unused Assets / (0.6 MB). Loaded Objects now: 5368.
-Memory consumption went from 200.0 MB to 199.4 MB.
-Total: 3.398200 ms (FindLiveObjects: 0.267800 ms CreateObjectMapping: 0.111500 ms MarkObjects: 2.750000 ms  DeleteObjects: 0.268200 ms)
+Unloading 113 unused Assets / (0.5 MB). Loaded Objects now: 5368.
+Memory consumption went from 200.0 MB to 199.5 MB.
+Total: 2.908500 ms (FindLiveObjects: 0.299800 ms CreateObjectMapping: 0.164800 ms MarkObjects: 2.191800 ms  DeleteObjects: 0.251300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -204,156 +204,20 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 380665.820504 seconds.
-  path: Assets/Materials/Ceiling.mat
-  artifactKey: Guid(810f7bb97ad3089409a242f088f59e03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Ceiling.mat using Guid(810f7bb97ad3089409a242f088f59e03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e706c34a49077258d432b4062cc619ae') in 0.064356 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Materials/GumsMaterial.mat
-  artifactKey: Guid(8081dfaba2cec6c48b0273adae84d54e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/GumsMaterial.mat using Guid(8081dfaba2cec6c48b0273adae84d54e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b330af59b40bcbc1c50dec032e39c027') in 0.053618 seconds
+  Time since last request: 426790.976108 seconds.
+  path: Assets/Sprites/Materials/TeethColor.mat
+  artifactKey: Guid(ff73ac1056285284a9f1db3495658133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Materials/TeethColor.mat using Guid(ff73ac1056285284a9f1db3495658133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6f9dc48f5e7ca11fc86e1098484130e') in 0.205389 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/Materials/Transition.prefab
-  artifactKey: Guid(397ee42fd62e653439e2b8b5203b5bab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Transition.prefab using Guid(397ee42fd62e653439e2b8b5203b5bab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e8be6517ffff07031f644a7e8744678') in 0.007293 seconds
+  Time since last request: 15.147255 seconds.
+  path: Assets/Sprites/UI/Pause Button.png
+  artifactKey: Guid(7208c6c485a1392429b4b7cc4b382e94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI/Pause Button.png using Guid(7208c6c485a1392429b4b7cc4b382e94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4ec8d31093ef53c3f4c33bc127661a8') in 0.073235 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000009 seconds.
-  path: Assets/Materials/Lamp.mat
-  artifactKey: Guid(f059a2d0beaf79541852438efd007a3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Lamp.mat using Guid(f059a2d0beaf79541852438efd007a3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f15ae0122b549bc8a2df4deedd87267') in 0.072092 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Materials/PlagueMaterial2.mat
-  artifactKey: Guid(96d52f8acfeee5c45bc48b623f7d428a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/PlagueMaterial2.mat using Guid(96d52f8acfeee5c45bc48b623f7d428a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec24be051ea0dbc6509182d2df4e627d') in 0.111687 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000010 seconds.
-  path: Assets/Materials/Interdental Brush Handle.mat
-  artifactKey: Guid(b593a10bbe6682c4ea1a15a5ce3c93d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Interdental Brush Handle.mat using Guid(b593a10bbe6682c4ea1a15a5ce3c93d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4738f8a546fc90041f0f0f1a7faca421') in 0.016437 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Materials/FoamMaterial.mat
-  artifactKey: Guid(5e81c2b63978fc9448751d9fef2beb38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/FoamMaterial.mat using Guid(5e81c2b63978fc9448751d9fef2beb38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c0f6be5d0a5263c2b2505a0735863db') in 0.043905 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Materials/Transparent.mat
-  artifactKey: Guid(73b30214fc6e7ad43a62cb64fc35a8f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Transparent.mat using Guid(73b30214fc6e7ad43a62cb64fc35a8f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14f30e7d0f1f469513c98f3ede5189d8') in 0.016521 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Materials/Toothbrush White Body.mat
-  artifactKey: Guid(e511d6ca567c37b409e5d04ac516c39e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Toothbrush White Body.mat using Guid(e511d6ca567c37b409e5d04ac516c39e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcc9952f026c7faee4f036dfc736d321') in 0.017795 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Materials/ToothbrushBody.mat
-  artifactKey: Guid(3f840d2602dc3fa42868640e3095a338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/ToothbrushBody.mat using Guid(3f840d2602dc3fa42868640e3095a338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a793fa8023aeb1e3d5d7ef522de125a') in 0.014857 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Materials/Fade.mat
-  artifactKey: Guid(58fa9beaf9818d74e9cf5f6b7d1090c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Fade.mat using Guid(58fa9beaf9818d74e9cf5f6b7d1090c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fae89904b594b97778379827cce0f50c') in 0.011972 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Materials/Plant.mat
-  artifactKey: Guid(aeeb74d56e81e2c42b45cfc92597c066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Plant.mat using Guid(aeeb74d56e81e2c42b45cfc92597c066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5ab707ebd62246e5395241b0a89a2df') in 0.011915 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 3.492080 seconds.
-  path: Assets/Sprites/Gums Top.obj
-  artifactKey: Guid(47695027a9f956d469e3c1fcd77e036d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Gums Top.obj using Guid(47695027a9f956d469e3c1fcd77e036d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b14a2dfd9e47e794c66ba0d4847b455c') in 0.046965 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Sprites/TeethColor.jpg
-  artifactKey: Guid(c55010759384abe48a5942669f5878f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/TeethColor.jpg using Guid(c55010759384abe48a5942669f5878f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a51888c16cfaa6e03c71b962a7ed6c0') in 0.026014 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/Sprites/Gums Top 2.obj
-  artifactKey: Guid(a39897ec7a7d40647b018a139aa3840c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Gums Top 2.obj using Guid(a39897ec7a7d40647b018a139aa3840c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8ab39eaf0b2d8886e9b351aaf75c9bb') in 0.018474 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Sprites/Teeth Top.obj
-  artifactKey: Guid(c72209c261509ac4dad2282b3375678b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Teeth Top.obj using Guid(c72209c261509ac4dad2282b3375678b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1da029377ada310cd618bd1e480956f3') in 0.018655 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Sprites/Teeth Bottom.obj
-  artifactKey: Guid(1d5bbd8cbf2654041b8acf50c82d951c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Teeth Bottom.obj using Guid(1d5bbd8cbf2654041b8acf50c82d951c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6836faaf2581cdcdb25136d6d52fb6ca') in 0.029241 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/Sprites/Set.prefab
-  artifactKey: Guid(70b84f8c4d48e9445b0799fb26d25c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Set.prefab using Guid(70b84f8c4d48e9445b0799fb26d25c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ec5401b32f751162ec0d7076d7066f0') in 0.010717 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 37
-========================================================================
-Received Import Request.
-  Time since last request: 1.985562 seconds.
-  path: Assets/Sprites/Toothbrush/toothbrush.obj
-  artifactKey: Guid(dc530c152148e5a41aea6433f9eb8fa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Toothbrush/toothbrush.obj using Guid(dc530c152148e5a41aea6433f9eb8fa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e43cad15a1b819bd5c5c9be336d1cad1') in 0.125327 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 64
+Number of asset objects unloaded after import = 3
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
 AssetImportWorker is now disconnected from the server

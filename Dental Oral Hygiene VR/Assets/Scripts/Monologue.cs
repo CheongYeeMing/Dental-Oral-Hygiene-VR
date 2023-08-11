@@ -35,6 +35,7 @@ public class Monologue : MonoBehaviour
     [SerializeField] JawAnimation jawAnimation;
     [SerializeField] GameObject upperJaw;
     [SerializeField] GameObject lowerJaw;
+    [SerializeField] GameObject image;
 
     [System.Serializable]
     public class Sequence
@@ -50,6 +51,8 @@ public class Monologue : MonoBehaviour
         public bool activatePS;
         public bool goBackMainMenu;
         public bool reset;
+        public bool hasImage;
+        public Sprite image;
 
         [TextArea(3, 15)]
         public string[] monologue;
@@ -116,6 +119,10 @@ public class Monologue : MonoBehaviour
         Debug.Log("Monologue Triggered");
         isTalking = true;
         currElement = 0;
+        if (Sequences[sequenceNumber].hasImage) {
+            image.SetActive(true);
+            image.GetComponent<Image>().sprite = Sequences[sequenceNumber].image;
+        }
         StartCoroutine(TypeSentence(Sequences[sequenceNumber].monologue[currElement]));
     }
 
@@ -160,6 +167,9 @@ public class Monologue : MonoBehaviour
             FindObjectOfType<MainMenu>().labelAnimator.Play("LabelsStay");
             MonologueData.sequenceNumber = 0;
             sequenceNumber = 0;
+        }
+        if (Sequences[sequenceNumber].hasImage) {
+            image.SetActive(false);
         }
         sequenceNumber++;
     }
