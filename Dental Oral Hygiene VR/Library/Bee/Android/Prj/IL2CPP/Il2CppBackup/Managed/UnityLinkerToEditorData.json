@@ -495,7 +495,8 @@
           {
             "name": "SpriteRenderer",
             "scenes": [
-              "Assets/Scenes/Bathroom.unity"
+              "Assets/Scenes/Bathroom.unity",
+              "Assets/Scenes/JawModel.unity"
             ],
             "dependencyType": 0,
             "icon": null

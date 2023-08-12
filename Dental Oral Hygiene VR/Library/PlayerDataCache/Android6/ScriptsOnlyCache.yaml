@@ -505,105 +505,6 @@ ScriptsOnlyBuild:
   - assembly: Unity.RenderPipelines.Core.Runtime
     fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerPanel
     methodName: ResetDebugManager
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.AudioModule
-    fullTypeName: UnityEngine.AudioSource
-    methodName: Play
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.AudioModule
-    fullTypeName: UnityEngine.AudioSource
-    methodName: Play
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: Assembly-CSharp
-    fullTypeName: SettingsMenu
-    methodName: MainMenu
-  - assembly: Assembly-CSharp
-    fullTypeName: AudioManager
-    methodName: PlayEffect
-  - assembly: Assembly-CSharp
-    fullTypeName: SettingsMenu
-    methodName: Resume
-  - assembly: Assembly-CSharp
-    fullTypeName: AudioManager
-    methodName: PlayEffect
-  - assembly: UnityEngine.UI
-    fullTypeName: UnityEngine.UI.Toggle
-    methodName: set_isOn
-  - assembly: UnityEngine.UI
-    fullTypeName: UnityEngine.UI.Toggle
-    methodName: set_isOn
-  - assembly: UnityEngine.UI
-    fullTypeName: UnityEngine.UI.Toggle
-    methodName: set_isOn
-  - assembly: UnityEngine.UI
-    fullTypeName: UnityEngine.UI.Toggle
-    methodName: set_isOn
-  - assembly: UnityEngine.UI
-    fullTypeName: UnityEngine.UI.Toggle
-    methodName: set_isOn
-  - assembly: UnityEngine.UI
-    fullTypeName: UnityEngine.UI.Toggle
-    methodName: set_isOn
-  - assembly: UnityEngine.UI
-    fullTypeName: UnityEngine.UI.Toggle
-    methodName: set_isOn
-  - assembly: UnityEngine.UI
-    fullTypeName: UnityEngine.UI.Toggle
-    methodName: set_isOn
-  - assembly: UnityEngine.UI
-    fullTypeName: UnityEngine.UI.Toggle
-    methodName: set_isOn
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
   - assembly: Assembly-CSharp
     fullTypeName: Monologue
     methodName: VRDialogueBoxHandClick
@@ -625,6 +526,105 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: AudioManager
     methodName: PlayEffect
+  - assembly: UnityEngine.UI
+    fullTypeName: UnityEngine.UI.Toggle
+    methodName: set_isOn
+  - assembly: UnityEngine.UI
+    fullTypeName: UnityEngine.UI.Toggle
+    methodName: set_isOn
+  - assembly: UnityEngine.UI
+    fullTypeName: UnityEngine.UI.Toggle
+    methodName: set_isOn
+  - assembly: UnityEngine.UI
+    fullTypeName: UnityEngine.UI.Toggle
+    methodName: set_isOn
+  - assembly: UnityEngine.UI
+    fullTypeName: UnityEngine.UI.Toggle
+    methodName: set_isOn
+  - assembly: UnityEngine.UI
+    fullTypeName: UnityEngine.UI.Toggle
+    methodName: set_isOn
+  - assembly: UnityEngine.UI
+    fullTypeName: UnityEngine.UI.Toggle
+    methodName: set_isOn
+  - assembly: UnityEngine.UI
+    fullTypeName: UnityEngine.UI.Toggle
+    methodName: set_isOn
+  - assembly: UnityEngine.UI
+    fullTypeName: UnityEngine.UI.Toggle
+    methodName: set_isOn
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: SettingsMenu
+    methodName: MainMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: AudioManager
+    methodName: PlayEffect
+  - assembly: Assembly-CSharp
+    fullTypeName: SettingsMenu
+    methodName: Resume
+  - assembly: Assembly-CSharp
+    fullTypeName: AudioManager
+    methodName: PlayEffect
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: Play
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: Play
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
@@ -668,8 +668,17 @@ ScriptsOnlyBuild:
     fullTypeName: AudioManager
     methodName: PlayEffect
   - assembly: Assembly-CSharp
+    fullTypeName: AudioManager
+    methodName: PlayEffect
+  - assembly: Assembly-CSharp
+    fullTypeName: AudioManager
+    methodName: StopEffect
+  - assembly: Assembly-CSharp
     fullTypeName: ToothbrushSelect
     methodName: TriggerMonologue
+  - assembly: Assembly-CSharp
+    fullTypeName: AudioManager
+    methodName: PlayEffect
   - assembly: Assembly-CSharp
     fullTypeName: AudioManager
     methodName: PlayEffect
@@ -713,8 +722,17 @@ ScriptsOnlyBuild:
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
   - assembly: Assembly-CSharp
+    fullTypeName: AudioManager
+    methodName: PlayEffect
+  - assembly: Assembly-CSharp
+    fullTypeName: AudioManager
+    methodName: StopEffect
+  - assembly: Assembly-CSharp
     fullTypeName: ToothbrushSelect
     methodName: TriggerMonologue
+  - assembly: Assembly-CSharp
+    fullTypeName: AudioManager
+    methodName: PlayEffect
   sceneClasses:
     Assets/Scenes/Bathroom.unity:
     - Class: 1
@@ -1207,6 +1225,8 @@ ScriptsOnlyBuild:
     - Class: 199
       Script: {instanceID: 0}
     - Class: 210
+      Script: {instanceID: 0}
+    - Class: 212
       Script: {instanceID: 0}
     - Class: 213
       Script: {instanceID: 0}
