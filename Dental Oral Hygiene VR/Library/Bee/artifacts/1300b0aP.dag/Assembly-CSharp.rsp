@@ -352,6 +352,7 @@
 "Assets/Scripts/SettingsMenuAnimation.cs"
 "Assets/Scripts/Sound.cs"
 "Assets/Scripts/Toothbrush.cs"
+"Assets/Scripts/ToothbrushSelect.cs"
 "Assets/Scripts/Transition.cs"
 "Assets/Scripts/XrRigAnimation.cs"
 "Assets/Scripts/XRSceneManager.cs"
