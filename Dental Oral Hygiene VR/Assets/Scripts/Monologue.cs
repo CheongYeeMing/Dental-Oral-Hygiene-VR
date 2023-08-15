@@ -5,7 +5,7 @@ using UnityEngine.UI;
 using TMPro;
 
 public class Monologue : MonoBehaviour
-{   
+{
     public List<Sequence> Sequences;
     public int sequenceNumber;
 
@@ -28,10 +28,10 @@ public class Monologue : MonoBehaviour
     public List<GameObject> INTERDENTAL_A;
     public List<GameObject> INTERDENTAL_B;
     public List<GameObject> PS;
-    
+
     public List<GameObject> currentList;
-    [SerializeField] Toothbrush toothbrush;
-    [SerializeField] Toothbrush interDentalToothbrush;
+    [SerializeField] GameObject toothbrush;
+    [SerializeField] GameObject interDentalToothbrush;
     [SerializeField] JawAnimation jawAnimation;
     [SerializeField] GameObject upperJaw;
     [SerializeField] GameObject lowerJaw;
@@ -98,26 +98,27 @@ public class Monologue : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (isBrushing) {
+        if (isBrushing)
+        {
             CheckBrushingCompletion();
         }
         clickTimer += Time.deltaTime;
     }
 
-    public void Play() 
+    public void Play()
     {
         Invoke("StartMonologue", 2);
         MonologueData.sequenceNumber = 0;
     }
 
-    public void ContinueSetup() 
+    public void ContinueSetup()
     {
         Invoke("StartMonologue", 2);
     }
 
     public void StartMonologue()
     {
-        if (!Sequences[sequenceNumber].isMainMenu) 
+        if (!Sequences[sequenceNumber].isMainMenu)
         {
             monologueFocus.Toggle();
         }
@@ -125,20 +126,26 @@ public class Monologue : MonoBehaviour
         Debug.Log("Monologue Triggered");
         isTalking = true;
         currElement = 0;
-        if (Sequences[sequenceNumber].hasImage) {
+        if (Sequences[sequenceNumber].hasImage)
+        {
             image.SetActive(true);
             image.GetComponent<Image>().sprite = Sequences[sequenceNumber].image;
         }
-        if (Sequences[sequenceNumber].isToothbrushSelectionPhase || Sequences[sequenceNumber].isOngoingSelectionPhase) {
-            foreach (GameObject toothbrush in toothbrushSelection) {
-                toothbrush.GetComponent<BoxCollider>().enabled = false;
+        if (Sequences[sequenceNumber].isToothbrushSelectionPhase || Sequences[sequenceNumber].isOngoingSelectionPhase)
+        {
+            foreach (GameObject toothbrushOption in toothbrushSelection)
+            {
+                toothbrushOption.GetComponent<BoxCollider>().enabled = false;
             }
         }
-        if (Sequences[sequenceNumber].isToothbrushSelectionPhase) {
-            foreach (GameObject toothbrush in toothbrushSelection) {
-                toothbrush.SetActive(true);
+        if (Sequences[sequenceNumber].isToothbrushSelectionPhase)
+        {
+            foreach (GameObject toothbrushOption in toothbrushSelection)
+            {
+                toothbrushOption.SetActive(true);
             }
-            foreach (GameObject obj in brushingPhaseObjects) {
+            foreach (GameObject obj in brushingPhaseObjects)
+            {
                 obj.SetActive(false);
             }
             jawModel.SetActive(false);
@@ -148,37 +155,38 @@ public class Monologue : MonoBehaviour
 
     public void EndMonologue()
     {
-        if (!Sequences[sequenceNumber].isMainMenu) 
+        if (!Sequences[sequenceNumber].isMainMenu)
         {
             monologueFocus.Toggle();
         }
         monologueAnimation.Toggle();
         Debug.Log("Monologue Closed");
         isTalking = false;
-        if (Sequences[sequenceNumber].nextAngle) 
+        if (Sequences[sequenceNumber].nextAngle)
         {
             jawSceneAnimation.ChangeAnimationState(Sequences[sequenceNumber].jawAngle);
-            if (Sequences[sequenceNumber].plagueBrush) 
+            if (Sequences[sequenceNumber].plagueBrush)
             {
                 ActivatePlague(Sequences[sequenceNumber].jawAngle);
             }
-            if (Sequences[sequenceNumber].hasNewToothbrushTransform) 
+            if (Sequences[sequenceNumber].hasNewToothbrushTransform)
             {
-                toothbrush.ChangeTransform(Sequences[sequenceNumber].newToothbrushTransform);
+                toothbrush.GetComponent<Toothbrush>().ChangeTransform(Sequences[sequenceNumber].newToothbrushTransform);
             }
         }
-        if (Sequences[sequenceNumber].enableInterdentaldisableToothbrush) 
+        if (Sequences[sequenceNumber].enableInterdentaldisableToothbrush)
         {
-            toothbrush.GetComponent<BoxCollider>().enabled = false;
-            interDentalToothbrush.GetComponent<BoxCollider>().enabled = true;
+            toothbrush.SetActive(false);
+            interDentalToothbrush.SetActive(true);
         }
-        if (Sequences[sequenceNumber].activatePS) 
+        if (Sequences[sequenceNumber].activatePS)
         {
-            foreach(GameObject ps in PS) {
+            foreach (GameObject ps in PS)
+            {
                 ps.SetActive(true);
             }
         }
-        if (Sequences[sequenceNumber].goBackMainMenu) 
+        if (Sequences[sequenceNumber].goBackMainMenu)
         {
             Invoke("BackToMainMenu", 3);
         }
@@ -188,19 +196,25 @@ public class Monologue : MonoBehaviour
             MonologueData.sequenceNumber = 0;
             sequenceNumber = 0;
         }
-        if (Sequences[sequenceNumber].hasImage) {
+        if (Sequences[sequenceNumber].hasImage)
+        {
             image.SetActive(false);
         }
-        if (Sequences[sequenceNumber].isToothbrushSelectionPhase || Sequences[sequenceNumber].isOngoingSelectionPhase) {
-            foreach (GameObject toothbrush in toothbrushSelection) {
-                toothbrush.GetComponent<BoxCollider>().enabled = true;
+        if (Sequences[sequenceNumber].isToothbrushSelectionPhase || Sequences[sequenceNumber].isOngoingSelectionPhase)
+        {
+            foreach (GameObject toothbrushOption in toothbrushSelection)
+            {
+                toothbrushOption.GetComponent<BoxCollider>().enabled = true;
             }
         }
-        if (Sequences[sequenceNumber].isEndOfToothbrushSelectionPhase) {
-            foreach (GameObject toothbrush in toothbrushSelection) {
-                toothbrush.SetActive(false);
+        if (Sequences[sequenceNumber].isEndOfToothbrushSelectionPhase)
+        {
+            foreach (GameObject toothbrushOption in toothbrushSelection)
+            {
+                toothbrushOption.SetActive(false);
             }
-            foreach (GameObject obj in brushingPhaseObjects) {
+            foreach (GameObject obj in brushingPhaseObjects)
+            {
                 obj.SetActive(true);
             }
             jawModel.SetActive(true);
@@ -209,8 +223,9 @@ public class Monologue : MonoBehaviour
         if (sequenceNumber == 9) return;
         sequenceNumber++;
     }
-    
-    public void BackToMainMenu() {
+
+    public void BackToMainMenu()
+    {
         FindObjectOfType<SettingsMenu>().MainMenu();
         MonologueData.sequenceNumber = 4;
     }
@@ -223,21 +238,21 @@ public class Monologue : MonoBehaviour
         Debug.Log("Clicked!!!");
         FindObjectOfType<AudioManager>().StopEffect("click");
         FindObjectOfType<AudioManager>().PlayEffect("click");
-        if (isTyping) 
+        if (isTyping)
         {
             CompleteSentence();
             return;
         }
-        if (currElement < Sequences[sequenceNumber].monologue.Length -1)
+        if (currElement < Sequences[sequenceNumber].monologue.Length - 1)
         {
             StopAllCoroutines();
             StartCoroutine(TypeSentence(Sequences[sequenceNumber].monologue[currElement + 1]));
             currElement++;
-        } 
+        }
         else if (Sequences[sequenceNumber].isEnd)
         {
             EndMonologue();
-        } 
+        }
         else
         {
             EndMonologue();
@@ -246,7 +261,7 @@ public class Monologue : MonoBehaviour
     }
 
     // Text Typing Animation
-    public IEnumerator TypeSentence(string sentence) 
+    public IEnumerator TypeSentence(string sentence)
     {
         monologueBox.text = "";
         isTyping = true;
@@ -260,7 +275,7 @@ public class Monologue : MonoBehaviour
     }
 
     // Depending on whether allow to skip the monologue
-    private void CompleteSentence() 
+    private void CompleteSentence()
     {
         StopAllCoroutines();
         monologueBox.text = currentSentence;
@@ -269,29 +284,29 @@ public class Monologue : MonoBehaviour
 
     public void ActivatePlague(string angle)
     {
-        if (angle == "upper_teeth_a") 
+        if (angle == "upper_teeth_a")
         {
             jawModel.GetComponent<JawAnimation>().Toggle();
             ActivateBoxCollider(UPPER_TEETH_A);
-        } 
+        }
         else if (angle == "upper_teeth_b")
         {
             ActivateBoxCollider(UPPER_TEETH_B);
-        } 
+        }
         else if (angle == "upper_teeth_c")
         {
             ActivateBoxCollider(UPPER_TEETH_C);
-        } 
+        }
         else if (angle == "upper_teeth_d")
         {
             Debug.Log("D Activated");
             ActivateBoxCollider(UPPER_TEETH_D);
             jawAnimation.JawOpen();
-        } 
+        }
         else if (angle == "upper_teeth_e")
         {
             ActivateBoxCollider(UPPER_TEETH_E);
-        } 
+        }
         else if (angle == "upper_teeth_f")
         {
             ActivateBoxCollider(UPPER_TEETH_F);
@@ -353,7 +368,7 @@ public class Monologue : MonoBehaviour
     {
         isBrushing = true;
         currentList = plagueList;
-        foreach(GameObject plague in plagueList)
+        foreach (GameObject plague in plagueList)
         {
             plague.GetComponent<BoxCollider>().enabled = true;
             plague.GetComponent<MeshRenderer>().sharedMaterial = plagueActive;
@@ -367,13 +382,15 @@ public class Monologue : MonoBehaviour
         // Random random = new Random();
         int top_1 = Random.Range(0, 4);
         int top_2 = top_1;
-        while (top_2 == top_1) {
+        while (top_2 == top_1)
+        {
             top_2 = Random.Range(0, 4);
         }
-        int bot_1 = Random.Range(4,8);
+        int bot_1 = Random.Range(4, 8);
         int bot_2 = bot_1;
-        while (bot_2 == bot_1) {
-            bot_2 = Random.Range(4,8);
+        while (bot_2 == bot_1)
+        {
+            bot_2 = Random.Range(4, 8);
         }
         plagueList[top_1].SetActive(true);
         plagueList[top_2].SetActive(true);
@@ -383,23 +400,24 @@ public class Monologue : MonoBehaviour
 
     public void CheckBrushingCompletion()
     {
-        if (currentList != null) {
-            foreach(GameObject plague in currentList)
+        if (currentList != null)
+        {
+            foreach (GameObject plague in currentList)
             {
-                if (plague.activeSelf) 
+                if (plague.activeSelf)
                 {
                     return;
                 }
             }
         }
-        if (!isBrushing) 
+        if (!isBrushing)
         {
             return;
         }
         FindObjectOfType<AudioManager>().PlayEffect("success");
         isBrushing = false;
-        toothbrush.ResetPosition();
-        interDentalToothbrush.ResetPosition();
+        toothbrush.gameObject.GetComponent<Toothbrush>().ResetPosition();
+        interDentalToothbrush.gameObject.GetComponent<Toothbrush>().ResetPosition();
         brushingProgressBar.IncrementProgress();
         Invoke("StartMonologue", 2);
     }

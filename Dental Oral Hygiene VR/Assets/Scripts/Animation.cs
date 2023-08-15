@@ -2,7 +2,7 @@
 /// This interface controls the Animation of all GameObjects.
 /// </summary>
 public interface Animation
-{   
+{
     /// <summary>
     /// This method is called when GameObject is initialised.
     /// </summary>
