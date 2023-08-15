@@ -38,7 +38,7 @@ public class Monologue : MonoBehaviour
     [SerializeField] GameObject jawModel;
     [SerializeField] GameObject image;
     [SerializeField] List<GameObject> toothbrushSelection;
-    [SerializeField] List<GameObject> toothbrushes;
+    [SerializeField] List<GameObject> brushingPhaseObjects;
 
     [System.Serializable]
     public class Sequence
@@ -138,8 +138,8 @@ public class Monologue : MonoBehaviour
             foreach (GameObject toothbrush in toothbrushSelection) {
                 toothbrush.SetActive(true);
             }
-            foreach (GameObject toothbrush in toothbrushes) {
-                toothbrush.SetActive(false);
+            foreach (GameObject obj in brushingPhaseObjects) {
+                obj.SetActive(false);
             }
             jawModel.SetActive(false);
         }
@@ -200,8 +200,8 @@ public class Monologue : MonoBehaviour
             foreach (GameObject toothbrush in toothbrushSelection) {
                 toothbrush.SetActive(false);
             }
-            foreach (GameObject toothbrush in toothbrushes) {
-                toothbrush.SetActive(true);
+            foreach (GameObject obj in brushingPhaseObjects) {
+                obj.SetActive(true);
             }
             jawModel.SetActive(true);
             jawModel.GetComponent<JawAnimation>().Toggle();
