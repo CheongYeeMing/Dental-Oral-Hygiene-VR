@@ -92,7 +92,6 @@ public class Monologue : MonoBehaviour
     {
         monologueAnimation = GetComponent<MonologueAnimation>();
         sequenceNumber = MonologueData.sequenceNumber;
-        Debug.Log("Monologue Start");
     }
 
     // Update is called once per frame
@@ -123,7 +122,6 @@ public class Monologue : MonoBehaviour
             monologueFocus.Toggle();
         }
         monologueAnimation.Toggle();
-        Debug.Log("Monologue Triggered");
         isTalking = true;
         currElement = 0;
         if (Sequences[sequenceNumber].hasImage)
@@ -160,7 +158,6 @@ public class Monologue : MonoBehaviour
             monologueFocus.Toggle();
         }
         monologueAnimation.Toggle();
-        Debug.Log("Monologue Closed");
         isTalking = false;
         if (Sequences[sequenceNumber].nextAngle)
         {
@@ -235,7 +232,6 @@ public class Monologue : MonoBehaviour
     {
         if (clickTimer < doubleClick) return;
         clickTimer = 0;
-        Debug.Log("Clicked!!!");
         FindObjectOfType<AudioManager>().StopEffect("click");
         FindObjectOfType<AudioManager>().PlayEffect("click");
         if (isTyping)
@@ -299,7 +295,6 @@ public class Monologue : MonoBehaviour
         }
         else if (angle == "upper_teeth_d")
         {
-            Debug.Log("D Activated");
             ActivateBoxCollider(UPPER_TEETH_D);
             jawAnimation.JawOpen();
         }
