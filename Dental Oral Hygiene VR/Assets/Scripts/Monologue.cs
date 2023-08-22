@@ -411,8 +411,14 @@ public class Monologue : MonoBehaviour
         }
         FindObjectOfType<AudioManager>().PlayEffect("success");
         isBrushing = false;
-        toothbrush.gameObject.GetComponent<Toothbrush>().ResetPosition();
-        interDentalToothbrush.gameObject.GetComponent<Toothbrush>().ResetPosition();
+        if (toothbrush.activeSelf)
+        {
+            toothbrush.gameObject.GetComponent<Toothbrush>().ResetPosition();
+        }
+        if (interDentalToothbrush.activeSelf)
+        {
+            interDentalToothbrush.gameObject.GetComponent<Toothbrush>().ResetPosition();
+        }
         brushingProgressBar.IncrementProgress();
         Invoke("StartMonologue", 2);
     }
