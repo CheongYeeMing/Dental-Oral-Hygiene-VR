@@ -818,7 +818,7 @@ PrefabInstance:
     - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
       propertyPath: Sequences.Array.data[0].monologue.Array.data[1]
       value: During my routine dental check-up yesterday, my dentist, Dr Clara, informed
-        me that bleeding gums id a sign that I have gum disease...
+        me that bleeding gums is a sign that I have gum disease.
       objectReference: {fileID: 0}
     - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
       propertyPath: Sequences.Array.data[0].monologue.Array.data[2]
@@ -839,7 +839,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
       propertyPath: Sequences.Array.data[1].monologue.Array.data[1]
-      value: Let's try using it to see areas where I have missed while brushing!
+      value: Let me give it a try!
       objectReference: {fileID: 0}
     - target: {fileID: 9195838262700180071, guid: 2fd5ebdf502b64c4c8a0831c3bb3458d, type: 3}
       propertyPath: Sequences.Array.data[2].monologue.Array.data[0]
