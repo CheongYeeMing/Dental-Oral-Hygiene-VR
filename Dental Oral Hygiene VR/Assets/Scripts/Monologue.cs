@@ -28,6 +28,7 @@ public class Monologue : MonoBehaviour
     public List<GameObject> INTERDENTAL_A;
     public List<GameObject> INTERDENTAL_B;
     public List<GameObject> PS;
+    public List<GameObject> AllPlague;
 
     public List<GameObject> currentList;
     [SerializeField] GameObject toothbrush;
@@ -39,6 +40,7 @@ public class Monologue : MonoBehaviour
     [SerializeField] GameObject image;
     [SerializeField] List<GameObject> toothbrushSelection;
     [SerializeField] List<GameObject> brushingPhaseObjects;
+    [SerializeField] GameObject toothpaste;
 
     [System.Serializable]
     public class Sequence
@@ -52,12 +54,16 @@ public class Monologue : MonoBehaviour
         public bool enableInterdentaldisableToothbrush;
         public bool isMainMenu;
         public bool activatePS;
+        public bool activateToothpaste;
         public bool goBackMainMenu;
         public bool reset;
         public bool hasImage;
         public bool isToothbrushSelectionPhase;
         public bool isOngoingSelectionPhase;
         public bool isEndOfToothbrushSelectionPhase;
+        public bool triggerRotateJawAtEnd;
+        public bool triggerStopRotateAndChangePlagueMaterial;
+        public bool skipMonologue;
         public Sprite image;
 
         [TextArea(3, 15)]
@@ -84,8 +90,9 @@ public class Monologue : MonoBehaviour
     private bool isTyping;
     public int currElement;
     private string currentSentence;
-    public float doubleClick = 0.1f;
+    public float doubleClick = 0.3f;
     public float clickTimer = 1;
+    public bool isClickable = false;
 
     // Start is called before the first frame update
     void Start()
@@ -117,9 +124,15 @@ public class Monologue : MonoBehaviour
 
     public void StartMonologue()
     {
-        if (!Sequences[sequenceNumber].isMainMenu)
+        isClickable = true;
+        if (!Sequences[sequenceNumber].isMainMenu && !Sequences[sequenceNumber].skipMonologue)
         {
             monologueFocus.Toggle();
+        }
+        if (Sequences[sequenceNumber].skipMonologue)
+        {
+            EndMonologue();
+            return;
         }
         monologueAnimation.Toggle();
         isTalking = true;
@@ -153,12 +166,17 @@ public class Monologue : MonoBehaviour
 
     public void EndMonologue()
     {
-        if (!Sequences[sequenceNumber].isMainMenu)
+        isClickable = false;
+        if (!Sequences[sequenceNumber].isMainMenu && !Sequences[sequenceNumber].skipMonologue)
         {
             monologueFocus.Toggle();
         }
-        monologueAnimation.Toggle();
-        isTalking = false;
+        if (!Sequences[sequenceNumber].skipMonologue)
+        {
+            monologueAnimation.Toggle();
+            isTalking = false;
+        }
+
         if (Sequences[sequenceNumber].nextAngle)
         {
             jawSceneAnimation.ChangeAnimationState(Sequences[sequenceNumber].jawAngle);
@@ -183,6 +201,10 @@ public class Monologue : MonoBehaviour
                 ps.SetActive(true);
             }
         }
+        if (Sequences[sequenceNumber].activateToothpaste)
+        {
+            toothpaste.SetActive(true);
+        }
         if (Sequences[sequenceNumber].goBackMainMenu)
         {
             Invoke("BackToMainMenu", 3);
@@ -192,6 +214,7 @@ public class Monologue : MonoBehaviour
             FindObjectOfType<MainMenu>().labelAnimator.Play("LabelsStay");
             MonologueData.sequenceNumber = 0;
             sequenceNumber = 0;
+            return;
         }
         if (Sequences[sequenceNumber].hasImage)
         {
@@ -217,7 +240,20 @@ public class Monologue : MonoBehaviour
             jawModel.SetActive(true);
             jawModel.GetComponent<JawAnimation>().Toggle();
         }
-        if (sequenceNumber == 9) return;
+        if (Sequences[sequenceNumber].triggerRotateJawAtEnd)
+        {
+            // Trigger roatating jaw
+            jawModel.GetComponent<JawAnimation>().ChangeAnimationState("JawRotate");
+
+            // Start monologue after rotate jaw
+            Invoke("StartMonologue", 15);
+        }
+        else if (Sequences[sequenceNumber].triggerStopRotateAndChangePlagueMaterial)
+        {
+            // jawModel.GetComponent<JawAnimation>().ChangeAnimationState("JawCloseNew");
+            DeactivatePlague();
+        }
+        if (sequenceNumber == 7) return; // When select hard toothbrush
         sequenceNumber++;
     }
 
@@ -230,7 +266,7 @@ public class Monologue : MonoBehaviour
     // Method to be triggered by VR Grabbable UI
     public void VRDialogueBoxHandClick()
     {
-        if (clickTimer < doubleClick) return;
+        if (clickTimer < doubleClick || !isClickable) return;
         clickTimer = 0;
         FindObjectOfType<AudioManager>().StopEffect("click");
         FindObjectOfType<AudioManager>().PlayEffect("click");
@@ -282,7 +318,7 @@ public class Monologue : MonoBehaviour
     {
         if (angle == "upper_teeth_a")
         {
-            jawModel.GetComponent<JawAnimation>().Toggle();
+            jawModel.GetComponent<JawAnimation>().ChangeAnimationState("JawCloseNew");
             ActivateBoxCollider(UPPER_TEETH_A);
         }
         else if (angle == "upper_teeth_b")
@@ -367,6 +403,14 @@ public class Monologue : MonoBehaviour
         {
             plague.GetComponent<BoxCollider>().enabled = true;
             plague.GetComponent<MeshRenderer>().sharedMaterial = plagueActive;
+        }
+    }
+
+    public void DeactivatePlague()
+    {
+        foreach (GameObject plague in AllPlague)
+        {
+            plague.GetComponent<MeshRenderer>().sharedMaterial = plagueInactive;
         }
     }
 

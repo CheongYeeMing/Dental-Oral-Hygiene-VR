@@ -1937,7 +1937,7 @@ struct TrackedDeviceMonitor_tB731C1064E08231F8A212B61A990F72FF2799652  : public 
 	List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* ___m_MonitoredDevices;
 	bool ___m_SubscribedOnAfterUpdate;
 };
-struct U3CTypeSentenceU3Ed__60_t3B7F882E790BDBC478FDC3931353359F8309A417  : public RuntimeObject
+struct U3CTypeSentenceU3Ed__63_tE1EA69EA0923E63E0E293477BBB1216B766766F5  : public RuntimeObject
 {
 	int32_t ___U3CU3E1__state;
 	RuntimeObject* ___U3CU3E2__current;
@@ -1957,12 +1957,16 @@ struct Sequence_t475C333331B332889AB440E82CC1FB83CE6C60F6  : public RuntimeObjec
 	bool ___enableInterdentaldisableToothbrush;
 	bool ___isMainMenu;
 	bool ___activatePS;
+	bool ___activateToothpaste;
 	bool ___goBackMainMenu;
 	bool ___reset;
 	bool ___hasImage;
 	bool ___isToothbrushSelectionPhase;
 	bool ___isOngoingSelectionPhase;
 	bool ___isEndOfToothbrushSelectionPhase;
+	bool ___triggerRotateJawAtEnd;
+	bool ___triggerStopRotateAndChangePlagueMaterial;
+	bool ___skipMonologue;
 	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___image;
 	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___monologue;
 };
@@ -9530,6 +9534,7 @@ struct Monologue_tF827698B0F9B4C8EA7F48F69FF7C595383DD19EA  : public MonoBehavio
 	List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* ___INTERDENTAL_A;
 	List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* ___INTERDENTAL_B;
 	List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* ___PS;
+	List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* ___AllPlague;
 	List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* ___currentList;
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___toothbrush;
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___interDentalToothbrush;
@@ -9540,6 +9545,7 @@ struct Monologue_tF827698B0F9B4C8EA7F48F69FF7C595383DD19EA  : public MonoBehavio
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___image;
 	List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* ___toothbrushSelection;
 	List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* ___brushingPhaseObjects;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___toothpaste;
 	MonologueAnimation_tA6FA9BC6DC799AC8DE1AA5EF68292D3C229A7EF9* ___monologueAnimation;
 	TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* ___monologueBox;
 	JawSceneAnimation_tFDDDDFCE0168C7F4F440A69F5F7319DCCEB9EB6C* ___jawSceneAnimation;
@@ -9554,6 +9560,7 @@ struct Monologue_tF827698B0F9B4C8EA7F48F69FF7C595383DD19EA  : public MonoBehavio
 	String_t* ___currentSentence;
 	float ___doubleClick;
 	float ___clickTimer;
+	bool ___isClickable;
 };
 struct MonologueAnimation_tA6FA9BC6DC799AC8DE1AA5EF68292D3C229A7EF9  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
@@ -13456,7 +13463,7 @@ const Il2CppTypeDefinitionSizes g_typeDefinitionSize6346 = { sizeof(MainMenu_t5A
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize6347;
 const Il2CppTypeDefinitionSizes g_typeDefinitionSize6347 = { sizeof(Sequence_t475C333331B332889AB440E82CC1FB83CE6C60F6), -1, 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize6348;
-const Il2CppTypeDefinitionSizes g_typeDefinitionSize6348 = { sizeof(U3CTypeSentenceU3Ed__60_t3B7F882E790BDBC478FDC3931353359F8309A417), -1, 0, 0 };
+const Il2CppTypeDefinitionSizes g_typeDefinitionSize6348 = { sizeof(U3CTypeSentenceU3Ed__63_tE1EA69EA0923E63E0E293477BBB1216B766766F5), -1, 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize6349;
 const Il2CppTypeDefinitionSizes g_typeDefinitionSize6349 = { sizeof(Monologue_tF827698B0F9B4C8EA7F48F69FF7C595383DD19EA), -1, 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize6350;
